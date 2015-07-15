@@ -2,7 +2,8 @@
 title: Robbert Hofman
 #email: hofman.robbert@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Personal site of Robbert Hofman.
+  Personal site of Robbert Hofman. <br>
+    I also never use Twitter but I thought it would look nice in my footer.
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: SmoothSwitch

@@ -4,22 +4,33 @@ title:  "LED Project"
 date:   2015-07-14 19:12:16
 categories: electronics arduino
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<h1>Components:</h1>
+<ul>
+<li>2x 5M RGB LED strip</li>
+<li>2x Power Supply 12V 2A</li>
+<li>2x Adapter female to female + - for the supply</li>
+<li>6x MOSFET</li>
+<li>1x Arduino</li>
+<li>1x Arduino USB Cable</li>
+<li>1x USB female to male</li>
+<li>1x Adapter for Arduino power (USB output)</li>
+<li>1x ESP Wi-Fi module</li>
+<li>Wires & Soldering tools</li>
+</ul>
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+<h1>Electrical Network:</h1>
+LEDs: <br>
+Just connect every mosfet's gate to a PWM output of the arduino, every drain to a LED strip pin (r,g,b), and every ground to, well, the ground. Also make sure the ground of the arduino and power supply are common. Last but not least, plug the power supply's positive into the LED strip's positive side.
 
-Jekyll also offers powerful support for code snippets:
+ESP: <br>
+to be worked out
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<h1>Programming: </h1>
+to be worked out
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+<h1>Reflections on the project: </h1>
+Adapters. Buy as many of them as you can because they make your life a lot easier. After soldering the circuit together, one of my LED strip's red was always on.
+PCB recommended because soldering sucks.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+<h1>Pictures</h1>
+Yet to come
