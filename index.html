@@ -1,10 +1,25 @@
 ---
 layout: default
+title: Home
 ---
 
 <div class="home">
+<h1 class="post-title">{{ page.title }}</h1>
+<h1 class="page-heading"> Welcome </h1>
+Well hello, this is my website! I will mostly use it for blogging about my
+projects, which you can find here: <a href="/projects">projects page</a>.
+In the <a href="/about">about</a> section you will find out more about who I am
+and what I do. Enjoy yourself, and if you have any questions or suggestions,
+make sure to <a href="/contact">contact me</a>! Cheers! <br> <br>
 
-  <h1 class="page-heading">Posts</h1>
+<h1 class="page-heading"> This website </h1>
+I am thinking about removing this "Home" page, as there is very little information
+on it and just serves as an index.html page. You may also expect some major changes
+during the following months, as I am doing a complete redesign from scratch. This is
+actually just a temporary website.
+
+
+  <!-- <h1 class="page-heading">Projects</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -16,7 +31,7 @@ layout: default
         </h2>
       </li>
     {% endfor %}
-  </ul>
+  </ul> -->
 
  <!-- does anyone still use RSS?
  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

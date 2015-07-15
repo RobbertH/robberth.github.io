@@ -4,8 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+By now, you probably already have guessed my name. If not, look up at the
+address bar in your browser. Knowing that, I am basically a student with lots
+of hobbies and interests. First of all, I have chosen to study civil engineering
+at KU Leuven (which is great, by the way!) and as major and minor I chose
+electronics and computer science respectively. Fortunately, that is also where my fields of
+interest lay. I love tinkering around with my arduinos and that often goes hand
+in hand with basic programming, and I also like webdesign. Most of my love for
+arduino started when I entered uni, and went to my first Soirée Pratique. That's
+an event organised by IEEE's student branch Leuven, where older guys (masters and
+doctorandi) gather to explain basic electronics to newbies (like me at the time).
+There, I bought my first arduino and started tinkering at home. By now, my desk
+is full of electronics and I have finished a couple of nice projects. I'm still learning
+a lot, but all the work has started to pay off. Besides that, sometimes I leave my computer for what it is and go running, biking or swimming. And I am also active in several extracurricular groups, such as VTK Revue, Sagio and AFT.
