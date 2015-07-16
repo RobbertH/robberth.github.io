@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<img src="/assets/robbertRond.png" alt="Drawing" style="width: 200px; float:right"/>
+
 By now, you probably already have guessed my name. If not, look up at the
 address bar in your browser. Knowing that, I am basically a student with lots
 of hobbies and interests. First of all, I have chosen to study civil engineering

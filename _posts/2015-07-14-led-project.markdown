@@ -26,11 +26,57 @@ ESP: <br>
 to be worked out
 
 <h1>Programming: </h1>
-to be worked out
+Arduino:
+{%highlight c++%}
+int r,g,b;
+long rgb;
+
+void setup(){
+    Serial.begin(9600);
+    pinMode(3, OUTPUT);
+    pinMode(5, OUTPUT);
+    pinMode(6, OUTPUT);
+    pinMode(9, OUTPUT);
+    pinMode(10, OUTPUT);
+    pinMode(11, OUTPUT);
+}
+
+void writeNumbers(int r1, int g1, int b1, int r2, int g2, int b2){
+    analogWrite(3, r1);
+    analogWrite(5, g1);
+    analogWrite(6, b1);
+    analogWrite(9, r2);
+    analogWrite(10, g2);
+    analogWrite(11, b2);
+}
+
+void loop(){
+    if (Serial.available() > 0){
+        long rgb = Serial.parseInt();
+        Serial.println(rgb);
+        r = rgb/1000000;
+        g = (rgb%1000000 - rgb%1000)/1000;
+        b = rgb%1000;
+        Serial.println(r);
+        Serial.println(g);
+        Serial.println(b);
+        writeNumbers(r,g,b,r,g,b);
+    }
+    else{
+        writeNumbers(r,g,b,r,g,b);
+    }
+}
+{% endhighlight %}
 
 <h1>Reflections on the project: </h1>
-Adapters. Buy as many of them as you can because they make your life a lot easier. After soldering the circuit together, one of my LED strip's red was always on.
-PCB recommended because soldering sucks.
+The amount of frustrations were high on this one. Try to
+avoid wires as much as possible, use adapters instead, it'll make your life a
+lot easier. Cables break and come out of place, adapters fit nicely and won't get
+out of place. When I made the circuit, everything worked fine and I decided to
+move away from the breadboard and solder everything together. After soldering, I
+broke a transistor (probably couldn't handle the heat) and one of the LED strips'
+red was always on. I am considering moving on to a PCB for overall sturdiness and
+compactness.
 
 <h1>Pictures</h1>
 Yet to come
