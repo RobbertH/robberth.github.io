@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="/assets/robbertRond.png" alt="Drawing" style="width: 200px; float:right"/>
+<img src="/assets/robbertRond.png" alt="aboutface" style="width: 200px; float:right"/>
 
 By now, you probably already have guessed my name. If not, look up at the
 address bar in your browser. Knowing that, I am basically a student with lots
