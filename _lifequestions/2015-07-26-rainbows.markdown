@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Rainbows and double rainbows"
+date:   2015-07-26 11:38:16
+categories: lifequestions
+permalink: /lifequestions/rainbows/
+---
+<h1>Calculating the angle:</h1>
+To be written

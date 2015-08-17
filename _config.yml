@@ -11,3 +11,14 @@ github_username:  robberth
 
 # Build settings
 markdown: kramdown
+
+collections:
+   - lifequestions
+include: ['_lifequestions']
+
+
+ # All the variables set via the command line and your _config.yml are available
+ #  through the site variable. For example, if you have url: http://mysite.com
+ #  in your configuration file, then in your Posts and Pages it will be stored in
+ #  site.url. Jekyll does not parse changes to _config.yml in watch mode, you must
+ #   restart Jekyll to see changes to variables.

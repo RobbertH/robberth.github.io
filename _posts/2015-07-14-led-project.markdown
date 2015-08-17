@@ -2,7 +2,7 @@
 layout: post
 title:  "LED Project"
 date:   2015-07-14 19:12:16
-categories: electronics arduino
+categories: arduino
 ---
 <h1>Components:</h1>
 <ul>
