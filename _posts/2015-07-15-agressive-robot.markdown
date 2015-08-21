@@ -45,6 +45,13 @@ inkscape files
 3mm thick MDF wood
 4 levels: 1 bottom with wheels, 1 with battery pack on it, 1 with arduino on it, 1 with batteries on it
 Still need to write this.
+<br>
+<img src="/assets/IMG_20150821_125935.jpg" alt="case" style="width: 300px; vertical-align: middle; left: 50%;"/><br>
+<i>The multi-level case system I came up with</i>
+<br>
+<img src="/assets/IMG_20150821_130005.jpg" alt="motor" style="width: 300px;"/><br>
+<i>One of the motors with gearbox I'll be using</i>
+<br>
 
 <h1>Electrical network:</h1>
 http://arduinoarts.com/wp-content/uploads/2011/08/arduino_bb_pot_transistor_motor_diode.png
