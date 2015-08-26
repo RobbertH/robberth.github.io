@@ -8,7 +8,7 @@ permalink: /about/
 
 By now, you probably already have guessed my name. If not, look up at the
 address bar in your browser. Knowing that, I am basically a student with lots
-of hobbies and interests. First of all, I have chosen to study civil engineering
+of hobbies and interests. First of all, I have chosen to study engineering
 at KU Leuven (which is great, by the way!) and as major and minor I chose
 electronics and computer science respectively. Fortunately, that is also where my fields of
 interest lay. I love tinkering around with my arduinos and that often goes hand
