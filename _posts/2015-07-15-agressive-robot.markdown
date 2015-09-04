@@ -20,12 +20,11 @@ close enough to consider as a target. If one sensor measures a short distance an
 the other a long, then the robot will spin until both sensors measure a short
 distance, so the robot is always pointing at it's target. <br>
 
-
 In the world of sensors, you basically have 3 cheap options: ultrasonic HC-SR04,
 infrared FC-51 or an infrared Sharp sensor. I bought the FC-51's because I thought
 HC-SR04's would interfere too much with each other and possibly with the enemy, but
 that didn't work out for me. They are just completely unusable. Luckily, I had
-some HC-SR04's laying around.
+some HC-SR04's lying around.
 
 <h1>Components:</h1>
 <ul>
@@ -33,13 +32,13 @@ some HC-SR04's laying around.
 <li>4x Wheel</li>
 <li>1x Battery pack Mr handsfree 5V USB output</li>
 <li>1x Arduino USB Cable</li>
-<li>1x Arduino Uno</li>
-<li>2x IR distance sensor module</li>
-<li>4x 9V battery</li>
-<li>4x 9V battery to wire adapter</li>
-<li>8x MOSFET</li>
-<li>8x diode</li>
-<li>(8x 10K resistor)</li>
+<li>1x Arduino Uno R3</li>
+<li>2x HC-SR04 Ultrasonic sensor</li>
+<li>2x 9V battery</li>
+<li>2x 9V battery to wire adapter</li>
+<li>4x MOSFET</li>
+<li>2x 5V DPDT relay</li>
+<li>some resistors</li>
 <li>Wires & Soldering tools</li>
 <li>Case (see below)</li>
 </ul>
@@ -58,6 +57,12 @@ and glued the pieces together. It has many levels, each containing some componen
 <br>
 <img src="/assets/IMG_20150821_130005.jpg" alt="motor" style="width: 300px;"/><br>
 <i>One of the motors with gearbox I'll be using</i>
+<br>
+<img src="/assets/IMG_20150904_172316.jpg" alt="case" style="width: 500px; vertical-align: middle;"/><br>
+<i>Finished mini cruizer</i>
+<br>
+<img src="/assets/IMG_20150904_172324.jpg" alt="motor" style="width: 500px;"/><br>
+<i>Isn't she beautiful?</i>
 <br>
 
 <h1>Electrical network:</h1>
