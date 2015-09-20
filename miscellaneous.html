@@ -1,0 +1,20 @@
+---
+title: Miscellaneous
+layout: default
+---
+
+
+<h2>Miscellaneous</h2>
+
+<div class="bigpostlist">
+      <ul>
+        {% for post in site.categories.miscellaneous %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <br>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <br><br>
+          </li>
+        {% endfor %}
+      </ul>
+</div>

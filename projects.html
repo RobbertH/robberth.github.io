@@ -1,25 +1,20 @@
 ---
-layout: page
 title: Projects
-permalink: /projects/
+layout: default
 ---
 
-<div class="home">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<h2>Projects</h2>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
- <!-- does anyone still use RSS?
- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
--->
-
+<div class="bigpostlist">
+      <ul>
+        {% for post in site.categories.projects %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <br>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <br><br>
+          </li>
+        {% endfor %}
+      </ul>
 </div>

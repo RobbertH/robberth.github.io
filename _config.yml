@@ -1,24 +1,10 @@
-# Site settings
-title: Robbert Hofman
-#email: hofman.robbert@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Personal site of Robbert Hofman. <br>
-    I also never use Twitter but I thought it would look nice in my footer.
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: SmoothSwitch
-github_username:  robberth
-
 # Build settings
+
 markdown: kramdown
+permalink: pretty
 
-collections:
-   - lifequestions
-include: ['_lifequestions']
+port: 3000
 
-
- # All the variables set via the command line and your _config.yml are available
- #  through the site variable. For example, if you have url: http://mysite.com
- #  in your configuration file, then in your Posts and Pages it will be stored in
- #  site.url. Jekyll does not parse changes to _config.yml in watch mode, you must
- #   restart Jekyll to see changes to variables.
+sass:
+  sass_dir: assets/css
+  style: :nested
