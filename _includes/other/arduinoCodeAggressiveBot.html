@@ -1,0 +1,91 @@
+#include <NewPing.h>
+
+#define TRIGGER_PIN  6
+#define TRIGGER_PON 2
+#define ECHO_PIN 7
+#define ECHO_PON 3
+#define MAX_DISTANCE 200
+
+#define MOTORL 4
+#define DIRL 5
+#define MOTORR 8
+#define DIRR 9
+
+bool RFORWARD = HIGH;
+bool RBACKWARDS = LOW;
+bool LFORWARD = HIGH;
+bool LBACKWARDS = LOW;
+
+NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
+NewPing sonor(TRIGGER_PON, ECHO_PON, MAX_DISTANCE);
+
+
+void setup() {
+  Serial.begin(9600);
+  int left = 200;
+  int right = 200;
+  pinMode(MOTORL,OUTPUT);
+  pinMode(DIRL,OUTPUT);
+  pinMode(MOTORR,OUTPUT);
+  pinMode(DIRR,OUTPUT);
+  pinMode(A4, OUTPUT);
+  pinMode(A5, INPUT);
+  digitalWrite(A4, HIGH);
+  digitalWrite(DIRL,LFORWARD); //turn forward
+  digitalWrite(MOTORL,LOW);
+  digitalWrite(DIRR,RFORWARD); //turn forward
+  digitalWrite(MOTORR,LOW);
+}
+
+void loop() {
+  //add jumper between A4 and A5. Unplug to stop the robot.
+  if (digitalRead(A5) == HIGH){
+    unsigned int uS = sonar.ping();
+    unsigned int oS = sonor.ping();
+    int left = uS / US_ROUNDTRIP_CM;
+    int right = oS / US_ROUNDTRIP_CM;
+
+    if (left < 29 || right < 29){
+      if (left > right){
+        digitalWrite(DIRL,LBACKWARDS);
+        digitalWrite(MOTORL,HIGH);
+        digitalWrite(DIRR,RFORWARD);
+        digitalWrite(MOTORR,HIGH);
+        Serial.println("turning left");
+        Serial.println(left);
+        Serial.println(right);
+      }
+      else{
+        digitalWrite(DIRL,LFORWARD);
+        digitalWrite(MOTORL,HIGH);
+        digitalWrite(DIRR,RBACKWARDS);
+        digitalWrite(MOTORR,HIGH);
+        Serial.println("turning right");
+        Serial.println(left);
+        Serial.println(right);
+      }
+    }
+
+    else{
+      digitalWrite(DIRL,LFORWARD);
+      digitalWrite(MOTORL,HIGH);
+      digitalWrite(DIRR,RFORWARD);
+      digitalWrite(MOTORR,HIGH);
+      Serial.println("full on");
+      Serial.println(left);
+      Serial.println(right);
+    }
+
+    delay(1000);
+
+    digitalWrite(MOTORL,LOW);
+    digitalWrite(MOTORR,LOW);
+
+    delay(20);
+  }
+
+  else{
+    digitalWrite(MOTORL, LOW);
+    digitalWrite(MOTORR, LOW);
+    Serial.println("Jumper unplugged.");
+  }
