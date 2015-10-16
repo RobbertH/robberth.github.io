@@ -19,11 +19,13 @@ because they are cheaper than Intel. It was about €650 at the time.
 </ul>
 
 I ordered all of the components online, and when they arrived a week later, I
-was super excited to get my hands on it. It was super easy and a lot of fun to do.
-Just follow some tutorial on the interwebs, connect some wires, hope that nothing is damaged and BAM, there's your superfast, supercheap self-built computer.
+was super excited to get my hands on it. It was easy and a lot of fun to do.
+I just followed some tutorial on the interwebs, connected some wires, hoped that nothing was damaged and BAM,
+there was my superfast, supercheap self-built computer.
 Having the computer for over three years now, I am very satisfied with it. It boots
-quickly (thanks to the small SSD) and runs smoothly. I only had a few crashes, but
+quickly (thanks to the small SSD) and runs smoothly. It only had a few crashes, but
 the hardest thing I ever had to do, was taking the RAM out and put it back in.
-The only issue I have had with it, is the loudness of the GPU fan, it's almost like an airplane taking off. To fix that, I installed TriXx GPU tweak tool to enhance the fan speed, and now everything is quiet.
+The only real issue I have had with it, is the loudness of the GPU fan, it's almost like an airplane taking off.
+To fix that, I installed TriXx GPU tweak tool to enhance the fan speed, and now everything is quiet.
 
 Pictures yet to come

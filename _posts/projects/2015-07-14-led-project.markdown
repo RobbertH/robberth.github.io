@@ -69,12 +69,12 @@ void loop(){
 {% endhighlight %}
 
 <h2>Reflections on the project: </h2>
-The amount of frustrations were high on this one. Try to
-avoid wires as much as possible, use adapters instead, it'll make your life a
+I've got frustrated a lot during this project. Try to
+avoid (soldering) wires as much as possible, use adapters instead, it'll make your life a
 lot easier. Cables break and come out of place, adapters fit nicely and won't get
 out of place. When I made the circuit, everything worked fine and I decided to
 move away from the breadboard and solder everything together. After soldering, I
-broke a transistor (probably couldn't handle the heat) and one of the LED strips'
+broke a transistor (probably couldn't handle the heat) so that one of the LED strips'
 red was always on. I am considering moving on to a PCB for overall sturdiness and
 compactness.
 

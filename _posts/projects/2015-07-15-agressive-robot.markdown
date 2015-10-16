@@ -7,7 +7,7 @@ categories: projects
 
 <h2>Background & Concept</h2>
 When I heard IEEE organised a "sumo robot competition", I knew I wanted to
-participate. So I went ahead and built my robot. There are a few game rules,
+participate. So I went ahead and build my robot. There are a few game rules,
 of which the most important is that you have to push the other robot out of
 the doyo without damaging it. And the robots mustn't be controlled by a user, but
 do everything on its own.

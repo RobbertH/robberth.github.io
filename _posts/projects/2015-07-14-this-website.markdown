@@ -17,16 +17,17 @@ of you that have no idea what I am talking about, I made a little comparison tab
 <tr> <td>Smaller pages</td> <td>Big web systems, databases, ...</td> </tr>
 </table> <br>
 Preprocessors are programs (languages) that produce code in another language for you. For
-example take CSS variables. Until now, at the time of writing, only FireFox supports CSS variables, so for other browser users you'll still need to put the actual values in every CSS section where you used the variable. That kind of takes away the use of the variables. And that's where preprocessors come in handy: you write all the code in the preprocessor
+example take CSS variables. Until now, at the time of writing, only FireFox supports CSS variables,
+so for other browser users you'll still need to put the actual values in every CSS section where you used the variable.
+That kind of takes away the use of the variables. And that's where preprocessors come in handy: you write all the code in the preprocessor
 language, and when you're done, the code will compile into regular html and CSS.
 Another great advantage is that you can include entire blocks of code, like your
-header and footer.
+header and footer, without having to copy-paste them into every single page.
 
 For this website, <a href="http://www.jekyllrb.com">Jekyll</a> was used. And as
 a text editor, I can recommend <a href="http://www.atom.io">atom</a>. To publish the  whole site, I used <a href="http://www.github.com">GitHub</a>. I am truly amazed
 by how simple Jekyll is, how beautiful atom and how fast GitHub. It's a pleasure
 to work with these pieces of software, and I am very thankful to the creators.
-
 
 <img src="/assets/img/ScreenshotAtom.png" alt="atomscreenshot" style="width: 600px;"/><br><i>This is what atom looks like</i><br>
 <!-- TODO: put image in the middle -->
