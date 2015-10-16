@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -151,7 +152,7 @@ td, th {
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff; }
+  background: #c4c4c4; }
   .highlight .c {
     color: #998;
     font-style: italic; }
@@ -483,3 +484,33 @@ footer {
     color: #000000;
     font-weight: 450;
     font-size: 170%; }
+  .post .post-content table {
+    width: 100%; }
+.post .toggle-box {
+  display: none; }
+.post .toggle-box + label {
+  cursor: pointer;
+  display: block;
+  line-height: 21px;
+  margin-bottom: 5px; }
+.post .toggle-box + label + div {
+  display: none;
+  margin-bottom: 10px; }
+.post .toggle-box:checked + label + div {
+  display: block; }
+.post .toggle-box + label:before {
+  background-color: #4F5150;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  content: "+";
+  display: block;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  width: 20px; }
+.post .toggle-box:checked + label:before {
+  content: "−"; }

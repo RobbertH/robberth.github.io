@@ -1,19 +1,27 @@
 ---
 layout: post
-categories: project
+title: "Bike Painting"
+date: 2013-08-20
+categories: projects
 ---
-
 <h2>Background</h2>
-I was bored during summer vacations, so I decided to do my first DIY project.
+I was bored during summer vacations, so I decided to do my first DIY project, together with a good friend of mine.
 I went ahead and bought a road bike. I was able to get my hands on an old one for just
 €50. I wanted to color it almost entirely black with just a few fluoresecent yellow accents on it.
-I even made a drawing before coloring it:
-<<< YET TO COME >>>
+We even made a drawing before coloring it:<br>
+<img src="/assets/img/peugeot/bikeDrawing.jpg" alt="bikeDrawing" style="width: 500px; vertical-align: middle;"/><br>
 So that was the idea, but when we went to the shop, the fluorescent yellow paint
-turned out to be really expensive, so I decided to buy only one can. It was not sufficient,
-so I ended up replacing the color for some light green, spending a total of another €50
-on paint, coating and cleaning product. <!-- TODO: coating?  -->
-<h2>List of materials</h2>
-I guess the pictures tell the story better than I can:
+turned out to be really expensive, so we decided to buy only one can. Of course, it was not sufficient,
+so we ended up replacing the color for some light green, spending a total of another €50
+on paint, lacquer and cleaning product. Eventually, we also made some design changes.
 
-<!-- TODO: insert pictures lol -->
+I guess the pictures tell the story better than I can:
+<br>
+<img src="/assets/img/peugeot/peugeot3.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
+<i>Before picture of the bike</i><br>
+<img src="/assets/img/peugeot/peugeot1.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
+<i>Our system of painting the wheels, but not the tires.</i><br>
+<img src="/assets/img/peugeot/peugeot2.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
+<i>Painting done. Time to reassemble.</i><br>
+<img src="/assets/img/peugeot/peugeot4.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
+<i>After picture of the bike</i><br>
