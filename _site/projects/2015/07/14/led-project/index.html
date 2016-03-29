@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
 </head>
 
 
@@ -57,10 +59,10 @@ to be worked out</p>
 <h2>Programming</h2>
 <p>Arduino:</p>
 
-<div class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="kt">int</span> <span class="n">r</span><span class="p">,</span><span class="n">g</span><span class="p">,</span><span class="n">b</span><span class="p">;</span>
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="kt">int</span> <span class="n">r</span><span class="p">,</span><span class="n">g</span><span class="p">,</span><span class="n">b</span><span class="p">;</span>
 <span class="kt">long</span> <span class="n">rgb</span><span class="p">;</span>
 
-<span class="kt">void</span> <span class="nf">setup</span><span class="p">(){</span>
+<span class="kt">void</span> <span class="n">setup</span><span class="p">(){</span>
     <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
     <span class="n">pinMode</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
     <span class="n">pinMode</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
@@ -70,7 +72,7 @@ to be worked out</p>
     <span class="n">pinMode</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
 <span class="p">}</span>
 
-<span class="kt">void</span> <span class="nf">writeNumbers</span><span class="p">(</span><span class="kt">int</span> <span class="n">r1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">g1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">g2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b2</span><span class="p">){</span>
+<span class="kt">void</span> <span class="n">writeNumbers</span><span class="p">(</span><span class="kt">int</span> <span class="n">r1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">g1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b1</span><span class="p">,</span> <span class="kt">int</span> <span class="n">r2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">g2</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b2</span><span class="p">){</span>
     <span class="n">analogWrite</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">r1</span><span class="p">);</span>
     <span class="n">analogWrite</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="n">g1</span><span class="p">);</span>
     <span class="n">analogWrite</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="n">b1</span><span class="p">);</span>
@@ -79,7 +81,7 @@ to be worked out</p>
     <span class="n">analogWrite</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="n">b2</span><span class="p">);</span>
 <span class="p">}</span>
 
-<span class="kt">void</span> <span class="nf">loop</span><span class="p">(){</span>
+<span class="kt">void</span> <span class="n">loop</span><span class="p">(){</span>
     <span class="k">if</span> <span class="p">(</span><span class="n">Serial</span><span class="p">.</span><span class="n">available</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">){</span>
         <span class="kt">long</span> <span class="n">rgb</span> <span class="o">=</span> <span class="n">Serial</span><span class="p">.</span><span class="n">parseInt</span><span class="p">();</span>
         <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">rgb</span><span class="p">);</span>
@@ -94,7 +96,7 @@ to be worked out</p>
     <span class="k">else</span><span class="p">{</span>
         <span class="n">writeNumbers</span><span class="p">(</span><span class="n">r</span><span class="p">,</span><span class="n">g</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">r</span><span class="p">,</span><span class="n">g</span><span class="p">,</span><span class="n">b</span><span class="p">);</span>
     <span class="p">}</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span></code></pre></figure>
 
 <h2>Reflections on the project: </h2>
 <p>I’ve got frustrated a lot during this project. Try to
