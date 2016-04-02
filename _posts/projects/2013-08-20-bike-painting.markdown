@@ -18,10 +18,18 @@ on paint, lacquer and cleaning product. Eventually, we also made some design cha
 I guess the pictures tell the story better than I can:
 <br>
 <img src="/assets/img/peugeot/peugeot3.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
-<i>Before picture of the bike</i><br>
+<i>Before picture of the bike</i><br><br>
 <img src="/assets/img/peugeot/peugeot1.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
-<i>Our system of painting the wheels, but not the tires.</i><br>
+<i>Our system of painting the wheels, but not the tires.</i><br><br>
 <img src="/assets/img/peugeot/peugeot2.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
-<i>Painting done. Time to reassemble.</i><br>
+<i>Painting done. Time to reassemble.</i><br><br>
 <img src="/assets/img/peugeot/peugeot4.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
 <i>After picture of the bike</i><br>
+
+More than a year later, I got a bike to ride in Leuven to go to university, and
+decided to enhance it a little bit too:
+<br>
+<img src="/assets/img/peugeot/BikeUniversityBefore.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
+<i>Before picture of the bike</i><br><br>
+<img src="/assets/img/peugeot/BikeUniversityAfter.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
+<i>After picture of the bike</i><br><br>
