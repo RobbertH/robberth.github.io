@@ -28,4 +28,16 @@ the hardest thing I ever had to do, was taking the RAM out and put it back in.
 The only real issue I have had with it, is the loudness of the GPU fan, it's almost like an airplane taking off.
 To fix that, I installed TriXx GPU tweak tool to enhance the fan speed, and now everything is quiet.
 
+<br>
+Update 11/06/2016: 
+My desktop started to show some issues. It froze at random. 
+I thought it was OS-related because I just installed 
+windows 10 on it, so I figured it would be a good idea 
+to run ubuntu on it on a new SSD. I installed ubuntu 15.04, 
+because in the newer 16.04 there is no support for fglrx. 
+Fglrx was necessary, not only for the OS to function, but also for the 
+fans to be quiet. Unfortunately, it was not an OS problem and my 
+computer still freezes from time to time. I haven't figured out what the problem is.
+
+<br>
 Pictures yet to come
