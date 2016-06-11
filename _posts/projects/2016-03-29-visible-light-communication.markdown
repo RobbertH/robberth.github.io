@@ -6,7 +6,7 @@ categories: projects
 ---
 <h2>Background & Concept</h2>
 So one day, I was at my friend's dorm room and we noticed that you could see my
-dorm from his. So we started joking around and as we are engineers, lasers came up.
+dorm from his. So we started joking around and as we are engineering students, lasers came up.
 We were thinking about communicating with lasers from his dormitory to mine and the
 other way round. Of course, I took this seriously and started building it. So far
 I have one arduino that is able to communicate with itself via visible light.
@@ -14,7 +14,7 @@ Theoretically, the only thing we would have to do is replace the LEDs used right
 with lasers that the photoresistors can detect over such a large distance. But
 there is another problem: the signals won't be exactly synced, unless we power both
 arudinos on at the exact right time. For example, a problem that can occur now if
-we use 2 arduinos is that one arduino starts sending, and the other starts receiving
+we use two distinct arduinos is that one arduino starts sending, and the other starts receiving
 when the fourth bit already has been sent. That's we I will need to implement a
 preamble or something like that. This remains to be done. I already ordered the
 lasers, so I'll keep you guys up to date.
