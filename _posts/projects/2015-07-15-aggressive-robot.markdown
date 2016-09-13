@@ -52,26 +52,34 @@ built in fablab, with 3mm thick 600x300mm MDF wood plates and lasercutters. So I
 and glued the pieces together. It has many levels, each containing some components.
 <br>
 
-<img src="/assets/img/aggressivebot1/IMG_20150821_125935.jpg" alt="case" style="width: 300px; vertical-align: middle;"/><br>
-<i>The multi-level case system I came up with</i>
-<br>
-<img src="/assets/img/aggressivebot1/IMG_20150821_130005.jpg" alt="motor" style="width: 300px;"/><br>
-<i>One of the motors with gearbox I'll be using</i>
-<br>
-<img src="/assets/img/aggressivebot1/IMG_20150904_172316.jpg" alt="case" style="width: 500px; vertical-align: middle;"/><br>
-<i>Finished mini cruizer</i>
-<br>
-<img src="/assets/img/aggressivebot1/IMG_20150904_172324.jpg" alt="motor" style="width: 500px;"/><br>
-<i>Isn't she beautiful?</i>
+<p style="text-align:center;">
+   <img src="/assets/img/aggressivebot1/IMG_20150821_125935.jpg" alt="case" width="50%"/>
+</p>
+<p style="text-align:center;"><i>The multi-level case system I came up with</i></p><br>
+
+<p style="text-align:center;">
+   <img src="/assets/img/aggressivebot1/IMG_20150821_130005.jpg" alt="motor" width="50%"/>
+</p>
+<p style="text-align:center;"><i>One of the motors with gearbox I'll be using</i></p><br>
+
+<p style="text-align:center;">
+   <img src="/assets/img/aggressivebot1/IMG_20150904_172316.jpg" alt="case" width="100%"/>
+</p>
+<p style="text-align:center;"><i>Finished mini cruizer</i></p><br>
+
+<p style="text-align:center;">
+   <img src="/assets/img/aggressivebot1/IMG_20150904_172324.jpg" alt="motor" width="100%"/>
+</p>
+<p style="text-align:center;"><i>Isn't she beautiful?</i></p><br>
 <br>
 
 <h2>Electrical network</h2>
 I got these nice circuit drawings from <a href="http://www.me.umn.edu/courses/me2011/arduino/technotes/dcmotors/bidirectional/bidirMotor.html">
 http://www.me.umn.edu/courses/me2011/arduino/technotes/dcmotors/bidirectional/bidirMotor.html</a>
 
-<img src="/assets/img/aggressivebot1/arduino-bidir.jpg" alt="circuitbidr" style="width: 300px; vertical-align: middle;"/><br>
+<p style="text-align:center;"> <img src="/assets/img/aggressivebot1/arduino-bidir.jpg" alt="circuitbidr" width="100%"/> </p>
 
-<img src="/assets/img/aggressivebot1/bidir-dwg.jpg" alt="circuitbidrdr" style="width: 300px; vertical-align: middle;"/><br>
+<p style="text-align:center;"> <img src="/assets/img/aggressivebot1/bidir-dwg.jpg" alt="circuitbidrdr" width="100%"/> </p>
 
 <h2>Programming</h2>
 

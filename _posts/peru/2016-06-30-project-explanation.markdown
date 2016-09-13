@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "0. Project Explanation"
-date:   2015-07-18 11:16:16
+date:   2016-06-30
 categories: peru
 permalink:  /peru/project-explanation/
 ---

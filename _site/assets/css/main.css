@@ -367,7 +367,7 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 header {
-  background: url(../img/179H.jpg) center center;
+  background: url(../img/backgrounds/114H.jpg) center center;
   height: 350px;
   background-size: cover; }
   header nav {
@@ -376,7 +376,7 @@ header {
     header nav a {
       display: inline-block;
       margin-left: 20px;
-      color: rgba(0, 0, 0, 0.6);
+      color: rgba(255, 255, 255, 0.7);
       font-size: 14px;
       font-weight: 700;
       text-transform: uppercase; }
@@ -395,14 +395,14 @@ header {
       padding: 0.2em 0.5em;
       border: white solid 10px; }
   header .kicker {
-    color: rgba(0, 0, 0, 0.7);
+    color: white;
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
     padding: 20px 0px 0px 0px; }
 
 footer {
-  background: url(../img/179H.jpg) center center;
+  background: url(../img/backgrounds/114H.jpg) center center;
   background-size: cover;
   padding: 40px 20px 20px 20px; }
   footer nav a {
