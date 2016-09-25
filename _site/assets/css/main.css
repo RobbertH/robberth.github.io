@@ -368,7 +368,7 @@ body {
 
 header {
   background: url(../img/backgrounds/114H.jpg) center center;
-  height: 350px;
+  height: 320px;
   background-size: cover; }
   header nav {
     text-align: center;
@@ -384,7 +384,7 @@ header {
         color: black; }
   header h1 {
     text-align: center;
-    font-size: 72px;
+    font-size: 60px;
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
@@ -393,7 +393,7 @@ header {
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
-      border: white solid 10px; }
+      border: white solid 8px; }
   header .kicker {
     color: white;
     text-align: center;
