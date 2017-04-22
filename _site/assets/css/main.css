@@ -457,6 +457,14 @@ footer {
           color: #1babcb; }
       .content-wrapper .bigpostlist ul li .post-meta {
         color: rgba(0, 0, 0, 0.7); }
+  .content-wrapper .linkedinicon {
+    display: inline-block;
+    height: 100px;
+    width: 100px; }
+    .content-wrapper .linkedinicon path {
+      fill: rgba(0, 0, 0, 0.7); }
+    .content-wrapper .linkedinicon a:hover path {
+      fill: #0083be; }
   .content-wrapper .twittericon {
     display: inline-block;
     height: 100px;
