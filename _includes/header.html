@@ -1,14 +1,39 @@
 <header>
 
-   <nav>
-      <a href="/">Home</a>
-      <a href="/projects">Projects</a>
-      <a href="/miscellaneous">Miscellaneous</a>
-      <a href="/peru">Peru</a>
-      <a href="/about">About</a>
-   </nav>
+	{% assign currenturl = page.url | downcase | split: '/' %}
+	<nav>
+		{% if page.url == "/" %}
+			<a class="active" href="/"> Home</a>
+		{% else %}
+			<a href="/">Home</a>
+		{% endif %}
 
-   <h1><span>Robbert Hofman</span></h1>
-   <p class=kicker>Electronics student @ KU Leuven</p>
+		{% if currenturl[1] == "projects" %}
+			<a class="active" href="/projects">Projects</a>
+		{% else %}
+			<a href="/projects">Projects</a>
+		{% endif %}
+
+		{% if currenturl[1] == "miscellaneous" %}
+			<a class="active" href="/miscellaneous">Miscellaneous</a>
+		{% else %}
+			<a href="/miscellaneous">Miscellaneous</a>
+		{% endif %}
+
+		{% if currenturl[1] == "peru" %}
+			<a class="active" href="/peru">Peru</a>
+		{% else %}
+			<a href="/peru">Peru</a>
+		{% endif %}
+		
+		{% if currenturl[1] == "about" %}
+			<a class="active" href="/about">About</a>
+		{% else %}
+			<a href="/about">about</a>
+		{% endif %}
+	</nav>
+
+	<h1><span>Robbert Hofman</span></h1>
+	<p class=kicker>Electronics student @ KU Leuven</p>
 
 </header>
