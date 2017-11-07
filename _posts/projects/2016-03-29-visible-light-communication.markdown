@@ -4,8 +4,9 @@ title:  "Visible light communication"
 date:   2016-03-29 15:42:25
 categories: projects
 ---
+
 <h2>Background & Concept</h2>
-So one day, I was at my friend's dorm room and we noticed that you could see my
+One day, I was at my friend's dorm room and we noticed that one could see my
 dorm from his. So we started joking around and as we are engineering students, lasers came up.
 We were thinking about communicating with lasers from his dormitory to mine and the
 other way round. Of course, I took this seriously and started building it. So far
@@ -16,8 +17,18 @@ there is another problem: the signals won't be exactly synced, unless we power b
 arduinos on at the exact right time. For example, a problem that can occur now if
 we use two distinct arduinos is that one arduino starts sending, and the other starts receiving
 when the fourth bit already has been sent. That's why I will need to implement a
-preamble or something like that. This remains to be done. I already ordered the
+preamble or something alike. This remains to be done. I already ordered the
 lasers, so I'll keep you guys up to date.
+
+<h2> Update </h2>
+A lot is still wrong with this prototype. Problems/TODOs that I know of right now include:
+<ul>
+	<li> Encoding should be according to ASCII </li>
+	<li> Code should be cleaned and documented for understandability, simplicity and compactness </li>
+	<li> Problem of syncing between two arduinos should be solved </li>
+	<li> Error correction code can be added </li>
+</ul>
+I am planning on making a follow-up post soon.
 
 <h2>Components</h2>
 <ul>
@@ -30,8 +41,7 @@ lasers, so I'll keep you guys up to date.
 </ul>
 
 <h2>Video</h2>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/U2LlwHkrC9s">
-</iframe>
+The video is available on <a href="https://www.youtube.com/watch?v=U2LlwHkrC9s">youtube</a>.
 <div class="video-container"><iframe src="https://www.youtube.com/embed/U2LlwHkrC9s"></iframe></div>
 
 
