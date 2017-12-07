@@ -1,65 +1,64 @@
 .post
-   .post-title
-      color: $primary-color
+  .post-title
+    color: $primary-color
 
+  .post-meta
+    color: gray 
+  
+  .post-content
+    color: $primary-color
+  h2
+    color: $primary-color
+    font-weight: 450
+    font-size: 170%
 
-   .post-meta
-      color: purple
+  table
+    width: 100%
 
-   .post-content
-      color: $primary-color
-      h2
-         color: $primary-color
-         font-weight: 450
-         font-size: 170%
+  .toggle-box
+    display: none
 
-      table
-         width: 100%
+  .toggle-box + label
+    cursor: pointer
+    display: block
+    line-height: 21px
+    margin-bottom: 5px
 
-   .toggle-box
-      display: none
+  .toggle-box + label + div
+    display: none
+    margin-bottom: 10px
 
-   .toggle-box + label
-      cursor: pointer
-      display: block
-      line-height: 21px
-      margin-bottom: 5px
+  .toggle-box:checked + label + div
+    display: block
 
-   .toggle-box + label + div
-      display: none
-      margin-bottom: 10px
+  .toggle-box + label:before
+    background-color: #4F5150
+    -webkit-border-radius: 10px
+    -moz-border-radius: 10px
+    border-radius: 10px
+    color: #FFFFFF
+    content: "+"
+    display: block
+    float: left
+    height: 20px
+    line-height: 20px
+    margin-right: 5px
+    text-align: center
+    width: 20px
 
-   .toggle-box:checked + label + div
-      display: block
+  .toggle-box:checked + label:before
+    content: "\2212"
 
-   .toggle-box + label:before
-      background-color: #4F5150
-      -webkit-border-radius: 10px
-      -moz-border-radius: 10px
-      border-radius: 10px
-      color: #FFFFFF
-      content: "+"
-      display: block
-      float: left
-      height: 20px
-      line-height: 20px
-      margin-right: 5px
-      text-align: center
-      width: 20px
+  .video-container
+    position: relative
+    padding-bottom: 56.25%
+    padding-top: 30px
+    height: 0
+    overflow: hidden
 
-   .toggle-box:checked + label:before
-      content: "\2212"
-
-   .video-container
-      position: relative
-      padding-bottom: 56.25%
-      padding-top: 30px
-      height: 0
-      overflow: hidden
-
-   .video-container iframe, .video-container object, .video-container embed
-      position: absolute
-      top: 0
-      left: 0
-      width: 100%
-      height: 100%
+  .video-container iframe, .video-container object, .video-container embed
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%

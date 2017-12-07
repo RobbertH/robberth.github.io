@@ -1,82 +1,102 @@
 .content-wrapper
-   min-height: 511px
-   max-width: 800px
-   margin: auto
-   padding: 0px 0px 2% 0
+  min-height: 511px
+  max-width: 800px
+  margin: auto
+  padding: 0px 0px 2% 0
 
-   h2
+h2
+  color: $primary-color
+  font-size: 3em
+
+h3
+  color: $primary-color
+  font-size: 1.5em
+
+article
+  max-width: 600px
+  text-align: justify
+
+
+.postlist
+  ul
+    display: inline-block
+    padding: 0.2em 0em 0em 2em
+    border-left: black solid 4px
+    li
+      list-style-type: none
+
+    .post-link
       color: $primary-color
-      font-size: 3em
+      font-weight: 600
 
-   h3
-      color: $primary-color
-      font-size: 1.5em
+.post-meta
+  color: rgba($primary-color, 0.7)
 
-   article
-      max-width: 600px
-      text-align: justify
+.bigpostlist
+  ul
+    display: inline-block
+    padding: 0.2em 0em 0em 2em
+    border-left: black solid 4px
+    li
+      list-style-type: none
 
+      .post-link
+        color: $primary-color
+        font-weight: 550
+        font-size: 200%
+        &:hover
+          color: $link-color
 
-   .postlist
-      ul
-         display: inline-block
-         padding: 0.2em 0em 0em 2em
-         border-left: black solid 4px
-         li
-            list-style-type: none
+      .post-meta
+        color: rgba($primary-color, 0.7)
 
-            .post-link
-               color: $primary-color
-               font-weight: 600
+.icon
+  display: inline-block
+  +size(100px)
+  path
+    fill: rgba($primary-color, 0.7)
 
-            .post-meta
-               color: rgba($primary-color, 0.7)
-
-   .bigpostlist
-      ul
-         display: inline-block
-         padding: 0.2em 0em 0em 2em
-         border-left: black solid 4px
-         li
-            list-style-type: none
-
-            .post-link
-               color: $primary-color
-               font-weight: 550
-               font-size: 200%
-               &:hover
-                  color: $link-color
-
-            .post-meta
-               color: rgba($primary-color, 0.7)
-
-
-   .linkedinicon
-      display: inline-block
-      +size(100px)
+.icon.linkedin // target html elements that have both icon and linkedin as style
+  a
+    &:hover
       path
-         fill: rgba($primary-color, 0.7)
-      a
-         &:hover
-            path
-               fill: #0083be
-   
-   .twittericon
-      display: inline-block
-      +size(100px)
+        fill: #0083be
+.icon.twitter
+  a
+    &:hover
       path
-         fill: rgba($primary-color, 0.7)
-      a
-         &:hover
-            path
-               fill: #55acee
+        fill: #55acee 
+.icon.github
+  a
+    &:hover
+      path
+        fill: #000000 
 
-   .githubicon
-      display: inline-block
-      +size(100px)
-      path
-         fill: rgba($primary-color, 0.7)
-      a
-         &:hover
-            path
-               fill: rgba($primary-color, 1)
+.half-content
+  display: inline-block
+  width: 100%
+  img
+    width: 200px
+    border-radius: 50%
+
+.divLeft
+  height: 400px
+  float: left
+  margin-left: 25%
+  margin-top: 5em 
+  margin-bottom: 40px
+
+.divRight
+  text-align: center
+  height: 600px
+  float: left 
+  margin-left: 5%
+  margin-top: 8em
+  img
+    width: 400px
+  margin-bottom: 40px
+
+.divBottom
+  float: left 
+  width: 100%
+  text-align: center

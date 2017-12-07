@@ -2,7 +2,7 @@
 layout: post
 title:  "Rainbows and double rainbows"
 date:   2015-07-26 11:38:16
-categories: miscellaneous
+categories: draft 
 permalink: /lifequestions/rainbows/
 ---
 <h2>Calculating the angle:</h2>
