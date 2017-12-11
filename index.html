@@ -4,58 +4,42 @@ layout: half
 ---
 
 <div class="divLeft">
-<h2 style="text-align: center"> Welcome! </h2>
-<article>
-Hello! I am Robbert, an electronical engineering student @ KU Leuven.	
-I am basically a student with lots
-of hobbies and interests. First of all, I have chosen to study engineering
-at KU Leuven and as major and minor I chose
-electronics and computer science respectively. Fortunately, that is also where my fields of
-interest lay. I love tinkering around with my arduinos and that often goes hand
-in hand with basic programming. Most of my love for
-arduino started when I entered university, and went to my first Soirée Pratique. That's
-an event organised by IEEE's student branch Leuven, where masters and
-doctorandi gather to explain basic electronics to newbies (like me at the time).
-There, I bought my first arduino and started tinkering at home. By now, my desk
-is full of electronics and I have finished a couple of nice projects. I'm still learning
-a lot, but all the work has started to pay off. Besides that, sometimes I leave my computer
-for what it is and go running, biking or swimming. Lastly, I am also active in some 
-extracurricular groups.
-I will mostly use this website for blogging about my
-   projects, which you can find here: <a href="/projects">projects page</a>.
-    Enjoy yourself! 
-	<br> <br>
-</article>
-<div class="divBottom">
+	<h2> Welcome! </h2>
+	<article>
+		Hello! I am Robbert, an electronical engineering student @ KU Leuven.	
+		I am basically a student with lots
+		of hobbies and interests. First of all, I have chosen to study engineering
+		at KU Leuven and as major and minor I chose
+		electronics and computer science respectively. Fortunately, that is also where my fields of
+		interest lay. I love tinkering around with my arduinos and that often goes hand
+		in hand with basic programming. Most of my love for
+		arduino started when I entered university, and went to my first Soirée Pratique. That's
+		an event organised by IEEE's student branch Leuven, where masters and
+		doctorandi gather to explain basic electronics to newbies (like me at the time).
+		There, I bought my first arduino and started tinkering at home. By now, my desk
+		is full of electronics and I have finished a couple of nice projects. I'm still learning
+		a lot, but all the work has started to pay off. Besides that, sometimes I leave my computer
+		for what it is and go running, biking or swimming. Lastly, I am also active in some 
+		extracurricular groups.
+		I will mostly use this website for blogging about my
+		projects, which you can find here: <a href="/projects">projects page</a>.
+		Enjoy yourself! 
+		<br> <br>
+	</article>
 
-<h3>Find me on the interwebs</h3>
-<div class="icon linkedin">
-	<a href="http://www.linkedin.com/in/robberthofman">{% include icons/linkedin.html %}</a>
+	<h3>Find me on the interwebs</h3>
+	<div class="icon linkedin">
+		<a href="http://www.linkedin.com/in/robberthofman">{% include icons/linkedin.html %}</a>
+	</div>
+	<div class="icon twitter">
+		<a href="http://www.twitter.com/smoothswitch">{% include icons/twitter.html %}</a>
+	</div>
+	<div class="icon github">
+		<a href="http://www.github.com/robberth">{% include icons/github.html %}</a>
+	</div>
 </div>
-<div class="icon twitter">
-	<a href="http://www.twitter.com/smoothswitch">{% include icons/twitter.html %}</a>
-</div>
-<div class="icon github">
-	<a href="http://www.github.com/robberth">{% include icons/github.html %}</a>
-</div>
-</div>
-</div>
+
 <div class="divRight">
-<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAvAAAAAJDNiZGUzMDFlLTgzYjItNGI2My04ZjczLThjNDMyMjhmYjRjYw.jpg"/>
+	<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAvAAAAAJDNiZGUzMDFlLTgzYjItNGI2My04ZjczLThjNDMyMjhmYjRjYw.jpg"/>
 </div>
-
-{% if false %} <!-- Generates post list, switched off now -->
-<h3>Recent posts</h3>
-<div class="postlist">
-	<ul>
-		{% for post in site.posts %}
-		<li>
-			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		</li>
-		{% endfor %}
-	 </ul>
-</div>
-{% endif %}
-
 
