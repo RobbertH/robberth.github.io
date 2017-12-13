@@ -28,10 +28,12 @@ $(document).on('keyup', function(e){
 			$('.player').css({
 				'font-weight': 'bold'
 			});
+			break;
 		case 82: // r
 			$('.player').css({
 				'color': 'red'
 			});
+			break;
 		default: // default
 			action = false;
 			break;
