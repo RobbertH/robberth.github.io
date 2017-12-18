@@ -19,9 +19,36 @@
 				left: 50px;
 				top: 50px;
 			}
+			.enemy {
+				position: fixed;
+				left: 100px;
+				top: 100px;
+			}
+			.arrowbox {
+				display: flex;
+				text-align: center;
+				font-weight: bold;
+				text-transform: uppercase;
+				position: absolute;
+				top: 90%;
+			}
+			.arrowbox table tr {
+				display: flex;
+				justify-content: center;
+				width: 500px;
+			}
+			.arrowbox table tr td {
+				flex-basis: 30%;
+				background: gray;
+				color: cyan;
+				border: solid cyan 1px;
+				margin: auto;
+				padding: 5px 0px;
+			}
+
 		</style>	
 	</head>
-	
+
 	<body>
 		<div class="player">
 			toonisnemiet
@@ -30,5 +57,23 @@
 		<div class="food">
 			banaan	
 		</div>
+
+		<div id="enemy" class="enemy">
+			monster	
+		</div>
+
+		<div class="arrowbox">
+			<table>
+				<tr>
+					<td id="arrowUp">up</td>	
+				</tr>
+				<tr>
+					<td id="arrowLeft">left</td>
+					<td id="arrowDown">down</td>
+					<td id="arrowRight">right</td>
+				</tr>
+			</table>
+		</div>
+
 	</body>
 </html>
