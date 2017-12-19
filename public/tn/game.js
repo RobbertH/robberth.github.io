@@ -37,10 +37,10 @@ function initializeArrows(){
 	arrowRight.style.cursor = "pointer";
 	arrowUp.style.cursor = "pointer";
 	arrowDown.style.cursor = "pointer";
-	arrowLeft.onclick = function(){player.x -= stepSize; writePositions();};
-	arrowRight.onclick = function(){player.x += stepSize; writePositions();};
-	arrowUp.onclick = function(){player.y -= stepSize; writePositions();};
-	arrowDown.onclick = function(){player.y += stepSize; writePositions();};
+	arrowLeft.onclick = function(){player.x -= stepSize; writePositions(); collisionDetection();};
+	arrowRight.onclick = function(){player.x += stepSize; writePositions(); collisionDetection();};
+	arrowUp.onclick = function(){player.y -= stepSize; writePositions(); collisionDetection();};
+	arrowDown.onclick = function(){player.y += stepSize; writePositions(); collisionDetection();};
 }
 
 function writePositions(){
