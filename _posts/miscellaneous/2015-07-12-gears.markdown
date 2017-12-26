@@ -5,19 +5,20 @@ date:   2015-07-18 11:16:16
 categories: miscellaneous
 permalink:  /lifequestions/gears/
 ---
-<h2>Prime numbers:</h2>
-Why do the amounts of teeth in gears often appear in prime numbers?
-When you make gears, you want oil to be spread out as much as possible, and you
+<h2>Prime numbers</h2>
+<b>Q:</b> Why do the amounts of teeth in gears often appear in prime numbers?
+</br>
+<b>A:</b> When you make gears, you want oil to be spread out as much as possible, and you
 also may want errors not to become worse. Say we have two gears with equal
 amount of teeth, and a part becomes damaged in one of the gears. Then with every
 rotation of both gears, the error in the first gear will cause some damage to
 the other gear.
 
 To prevent this, you want every gear tooth to pass every other gear hole, before
-reaching the gear hole where it started. And that's where the prime numbers
+reaching the gear hole where it first started. And that's where the prime numbers
 come in. Or more accurately, the greatest common divisor: this should be equal
 to 1. That makes the two amounts coprime, e.g. 17 and 12 are coprime, so they
-would make a great gear set, unlike 12 and 4, because after every 3 rotations of
+would make a great gear set, unlike 12 and 4, because in that case, after every 3 rotations of
 the smallest gear, the same cycle begins again.
 
 To make everything clear, I made a small scratch application.
