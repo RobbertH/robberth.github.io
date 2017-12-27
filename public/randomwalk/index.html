@@ -6,18 +6,10 @@
 			  src="https://code.jquery.com/jquery-3.2.1.js"
 			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
 			  crossorigin="anonymous"></script>
-
-		<style type="text/css" media="all">
-			canvas {
-				width: 100%;
-				height: 100%;
-			}
-		</style>
 	</head>
 
 	<body>
-		<canvas id="canvas">
-		</canvas>
+		<canvas id="myCanvas" width=1900 height=1000>	</canvas>
 
 		<div id="character" style="position: fixed">character</div>
 		<script charset="utf-8">
@@ -26,37 +18,35 @@
 			// implement FPS so js doesn't suck up computing resources
 			// figure out how to never get ctx undefined or id not found (check after load: jquery, plain js, if(context) ...)    
 			// leave trail checkbox
-			// slider for speed
+			// slider for stepSize
 			// js scopes? not everything should be global 
 			// learn about canvas: why doesn't div appear when it's there? what possibilities?
 			// find out when to use jQuery: what can you do with vanilla js? 
 			// canvas bounce animations (tiny circle ripples, can be done purely css probably)
-			var x, y;
+			// get rid of jquery for performance
+			// limit FPS !!!
+			var x, y; 
 			var ctx;
-			var speed = 10;
+			var stepSize = 10;
+			var path = [];
 
-			$(document).ready(function(){
-				x = window.innerWidth/2 - document.getElementById("character").clientWidth;
-				y =	window.innerHeight/2 - document.getElementById("character").clientHeight;
-				ctx = document.getElementById('canvas').getContext('2d');
-				ctx.fillStyle = 'rgb(200,0,0)'; // sets the color to fill in the rectangle with
-				ctx.fillRect(10, 10.4, 53, 5);   // draws the rectangle at pos pos width height 
-				ctx.closePath();
-			});
+			x = window.innerWidth/2 - document.getElementById("character").clientWidth;
+			y =	window.innerHeight/2 - document.getElementById("character").clientHeight;
+			c = document.getElementById("myCanvas");
+			ctx = c.getContext("2d");
 
 			function gameLoop() { 
-				x = Math.max(0, x+speed*(-1+2*Math.random()));
-				y = Math.max(0, y+speed*(-1+2*Math.random()));
-				$("#character").css({'left': x, 'top': y});
-				window.requestAnimationFrame(gameLoop);
-				//ctx.putImageData($px, x, y);
-				ctx = document.getElementById('canvas').getContext('2d');
-				ctx.beginPath();
-				ctx.moveTo(x,y);
-				ctx.fillRect(x, y, 5, 5);   
-				ctx.closePath();
+				ctx.moveTo(x,y); // move canvas pencil
+				x = Math.max(0, x+stepSize*(-1+2*Math.random())); 
+				y = Math.max(0, y+stepSize*(-1+2*Math.random()));
+				$("#character").css({'left': x, 'top': y}); // move character (jquery)
+				ctx.lineTo(x,y); // draw distance traveled since last loop 
+				ctx.stroke(); // actually draw it :P
+				window.requestAnimationFrame(gameLoop); // let the loop continue
+				//ctx.putImageData($px, x, y); // should be fast alternative
 			}
-			window.requestAnimationFrame(gameLoop);
+
+			window.requestAnimationFrame(gameLoop); // start loop 
 		</script>	
 	</body>
 </html>
