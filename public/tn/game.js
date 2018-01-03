@@ -102,16 +102,13 @@ class Food extends Character {
 }
 
 // GAME
-$(document).ready(function(){
-	console.log("document ready");
-	initializeArrows(); // should only set these guys up once
-	console.log("setup complete");
-});
+initializeArrows(); // should only set these guys up once
+console.log("setup complete");
 
-$(document).on('keyup', function(e){
+document.onkeyup = function(e){
 	checkButtonPress(e);
 	collisionDetection();
-});
+};
 
 var player = new Player(100, 100, "toonisnemiet", 19);
 var food = new Food(200, 50, "banaan");
@@ -135,8 +132,8 @@ function collisionDetection(){
 	if (Math.abs(player.x - food.x) < threshold && 
 		Math.abs(player.y - food.y) < threshold) { // objects are close enough: collision
 		player.setFontSize(player.fontSize + 3);
-		food.setX(Math.random()*$(window).width()); // spawn food somewhere else
-		food.setY(Math.random()*$(window).height());
+		food.setX(Math.random()*window.innerWidth); // spawn food somewhere else
+		food.setY(Math.random()*window.innerHeight);
 	}
 }
 
