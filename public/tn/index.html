@@ -6,22 +6,6 @@
 		<title>Toon is een mietje</title>
 		
 		<style>
-			.player {
-				position: fixed;
-				left: 10px;
-				top: 10px;
-				color: black;
-			}
-			.food {
-				position: fixed;
-				left: 50px;
-				top: 50px;
-			}
-			.enemy {
-				position: fixed;
-				left: 100px;
-				top: 100px;
-			}
 			.arrowbox {
 				text-align: center;
 				font-weight: bold;
@@ -51,9 +35,11 @@
 	<body>
 		<table class="arrowbox">
 			<tr>
-				<td></td>
+			</tr>
+			<tr>
+				<td id="score1" style="color: orange">0</td>
 				<td id="arrowUp">up</td>	
-				<td></td>
+				<td id="score2" style="color: red"></td>
 			</tr>
 			<tr>
 				<td id="arrowLeft">left</td>
