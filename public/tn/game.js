@@ -30,7 +30,7 @@ class Character {
 		this.setName(name);
 		this.setX(x);
 		this.setY(y);
-		document.body.appendChild(this.htmlElement);
+		this.appendToDocument();
 	}
 
 	getX() {
@@ -53,6 +53,10 @@ class Character {
 
 	setName(name) {
 		this.htmlElement.innerHTML = name;
+	}
+	
+	appendToDocument() {
+		document.body.insertBefore(this.htmlElement, document.body.firstChild);
 	}
 
 	move(direction, amount) {
@@ -125,12 +129,17 @@ class Player extends Character {
 class Food extends Character {
 	constructor(x=0, y=0, name="") {
 		super(x, y, name);
+
 	}
 
 	getEaten(){
 		this.setX(Math.random()*window.innerWidth); // spawn food somewhere else
 		this.setY(Math.random()*window.innerHeight);
 		this.setName(foods[Math.floor(Math.random()*foods.length)]);
+	}
+	
+	appendToDocument() {
+		document.body.appendChild(this.htmlElement); // food always visible (above arrows)
 	}
 }
 
@@ -145,7 +154,7 @@ document.onkeyup = function(e){
 
 var player1 = new Player(100, 100, "toonisnemiet", 19);
 var food = new Food(200, 50, "banaan");
-var player2 = new Player(300, 300, "toonisnemiet", 19);
+var player2 = new Player(Math.random()*window.innerWidth, Math.random()*window.innerHeight, "toonisnemiet", 19);
 player2.disappear();
 
 function initializeArrows(){
