@@ -1,35 +1,34 @@
-<html>
+<html height=100%>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title>random walk</title>
 	</head>
 
 	<body>
-		<canvas id="myCanvas" width=1900 height=900>	</canvas>
+		<canvas id="myCanvas"> </canvas>
 		<form action="" method="post">
 			<input type="checkbox" name="drawPath" id="drawPath" /> draw path
 		</form>
 		<div id="character" style="position: fixed">character</div>
+		<input type="range" name="stepSizeSlider" id="stepSizeSlider" min="1" max="20" value=10" step="1">stepSize</input>
 		<script charset="utf-8">
 			//TODO: 
-			// fix canvas size to 100% !!!
 			// add button to wipe existing path
 			// separate js and html
-			// figure out how to never get ctx undefined or id not found (check after load: jquery, plain js, if(context) ...)    
-			// leave trail checkbox
-			// slider for stepSize
+			// fix variable declarations and stuff
 			// js scopes? not everything should be global 
-			// learn about canvas: why doesn't div appear when it's there? what possibilities?
-			// find out when to use jQuery: what can you do with vanilla js? 
 			// canvas bounce animations (tiny circle ripples, can be done purely css probably)
 			var x, y; 
 			var ctx;
 			var stepSize = 10;
 			var path = [];
+			var slider = document.getElementById(stepSizeSlider);
 
 			x = window.innerWidth/2 - document.getElementById("character").clientWidth;
 			y =	window.innerHeight/2 - document.getElementById("character").clientHeight;
 			c = document.getElementById("myCanvas");
+			c.height = 0.9*window.innerHeight;
+			c.width = 0.99*window.innerWidth;
 			ctx = c.getContext("2d");
 
 			function gameLoop() { 
@@ -47,6 +46,10 @@
 			}
 
 			window.requestAnimationFrame(gameLoop); // start loop 
+
+			stepSizeSlider.onchange = function() { // event listener (no html tag!)
+				stepSize = this.value; // this is very cool! interrupt like!
+			}
 		</script>	
 	</body>
 </html>
