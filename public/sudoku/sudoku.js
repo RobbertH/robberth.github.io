@@ -3,6 +3,8 @@
 // or work with 2 matrices (input --> output)
 // add borders
 // beautify
+// clean up code (col vs column_index)
+// do something about the input method, not every keyup should invoke func call
 
 // sudoku has 9 3x3 subFields. In every subfield, the numbers 1-9 should occur strictly once.
 //	fields are ordered [[0,1,2],[3,4,5],[6,7,8]] (from left to right and up to down)
