@@ -7,7 +7,7 @@ permalink:  /lifequestions/gears/
 ---
 <h2>Prime numbers</h2>
 <b>Q:</b> Why do the amounts of teeth in gears often appear in prime numbers?
-</br>
+<br/>
 <b>A:</b> When you make gears, you want oil to be spread out as much as possible, and you
 also may want errors not to become worse. Say we have two gears with equal
 amount of teeth, and a part becomes damaged in one of the gears. Then with every
