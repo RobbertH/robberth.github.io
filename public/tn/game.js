@@ -124,6 +124,26 @@ class Player extends Character {
 	appear() {
 		this.htmlElement.style.display = "";
 	}
+
+	leftArrowPushed(){
+		this.move(directions.LEFT, stepSize);
+		collisionDetection();
+	}
+	
+	upArrowPushed(){
+		this.move(directions.UP, stepSize);
+		collisionDetection();
+	}
+	
+	rightArrowPushed(){
+		this.move(directions.RIGHT, stepSize);
+		collisionDetection();
+	}
+	
+	downArrowPushed(){
+		this.move(directions.DOWN, stepSize);
+		collisionDetection();
+	}
 }
 
 class Food extends Character {
@@ -144,7 +164,6 @@ class Food extends Character {
 }
 
 // GAME
-initializeArrows(); // should only set these guys up once
 console.log("setup complete");
 
 document.onkeyup = function(e){
@@ -156,21 +175,6 @@ var player1 = new Player(100, 100, "toonisnemiet", 19);
 var food = new Food(200, 50, "banaan");
 var player2 = new Player(Math.random()*window.innerWidth, Math.random()*window.innerHeight, "toonisnemiet", 19);
 player2.disappear();
-
-function initializeArrows(){
-	var arrowLeft = document.getElementById("arrowLeft");
-	var arrowRight = document.getElementById("arrowRight");
-	var arrowUp = document.getElementById("arrowUp");
-	var arrowDown = document.getElementById("arrowDown");
-	var arrows = [arrowLeft, arrowUp, arrowRight, arrowDown];
-	for (var i = 0; i < arrows.length; i++) {
-		arrows[i].style.cursor = "pointer";	
-	}
-	arrowLeft.onclick = function(){player1.move(directions.LEFT, stepSize); collisionDetection();};
-	arrowRight.onclick = function(){player1.move(directions.RIGHT, stepSize); collisionDetection();};
-	arrowUp.onclick = function(){player1.move(directions.UP, stepSize); collisionDetection();};
-	arrowDown.onclick = function(){player1.move(directions.DOWN, stepSize); collisionDetection();};
-}
 
 function collisionDetection(){
 	if (Math.abs(player1.x - food.x) < threshold && 
