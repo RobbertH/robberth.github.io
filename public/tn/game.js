@@ -17,7 +17,6 @@ var score = 0;
 // enemies should not entirely randomwalk, they should be pushed towards player as well
 // fix collision detection for div size instead of upperleft point
 // substitute text for low-res pictures (or not? :p)
-// hide player2 in a better way (still collides)
 // when holding a key down do multiple moves immediately
 // food should not spawn in arrowbox or at sides of screen. Players should not leave screen.
 // popup with controls that disappears on any button press 
@@ -117,14 +116,6 @@ class Player extends Character {
 		this.score += 1;
 	}
 
-	disappear() {
-		this.htmlElement.style.display = "none";
-	}
-
-	appear() {
-		this.htmlElement.style.display = "";
-	}
-
 	leftArrowPushed(){
 		this.move(directions.LEFT, stepSize);
 		collisionDetection();
@@ -173,8 +164,7 @@ document.onkeyup = function(e){
 
 var player1 = new Player(100, 100, "toonisnemiet", 19);
 var food = new Food(200, 50, "banaan");
-var player2 = new Player(Math.random()*window.innerWidth, Math.random()*window.innerHeight, "toonisnemiet", 19);
-player2.disappear();
+var player2 = null; 
 
 function collisionDetection(){
 	if (Math.abs(player1.x - food.x) < threshold && 
@@ -184,13 +174,14 @@ function collisionDetection(){
 		player1.increaseScore();
 		document.getElementById("score1").innerHTML = player1.getScore();
 	}
-
-	if (Math.abs(player2.x - food.x) < threshold && 
-		Math.abs(player2.y - food.y) < threshold) { // objects are close enough: collision
-		player2.setFontSize(player2.fontSize + 3);
-		food.getEaten();
-		player2.increaseScore();
-		document.getElementById("score2").innerHTML = player2.getScore();
+	if (player2 != null) {
+		if (Math.abs(player2.x - food.x) < threshold && 
+			Math.abs(player2.y - food.y) < threshold) { // objects are close enough: collision
+			player2.setFontSize(player2.fontSize + 3);
+			food.getEaten();
+			player2.increaseScore();
+			document.getElementById("score2").innerHTML = player2.getScore();
+		}
 	}
 }
 
@@ -222,7 +213,7 @@ function checkButtonPress(e){
 			player2.move(directions.RIGHT, stepSize);
 			break;
 		case 77: // m multiplayer
-			player2.appear();
+			player2 = new Player(Math.random()*window.innerWidth, Math.random()*window.innerHeight, "toonisnemiet", 19);
 			break;
 		case 66: // b
 			player1.toggleFontWeight();
