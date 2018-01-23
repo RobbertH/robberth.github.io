@@ -5,8 +5,8 @@ var threshold = stepSize;
 
 // ENUMS 
 var directions = Object.freeze({LEFT: 37, UP: 38, RIGHT: 39, DOWN: 40}); // safe enum
-var foods = Object.freeze(["banaan", "kers", "patat", "appel"]);
-var enemies = Object.freeze(["monster", "slak", "Arne"]);
+var foodNames = Object.freeze(["banaan", "kers", "patat", "appel"]);
+var enemyNames = Object.freeze(["monster", "slak", "Arne"]);
 
 // GLOBALS
 var score = 0;
@@ -20,6 +20,8 @@ var score = 0;
 // when holding a key down do multiple moves immediately
 // food should not spawn in arrowbox or at sides of screen. Players should not leave screen.
 // popup with controls that disappears on any button press 
+// superclass object of character and food (or entity if name is already taken) position, collide
+// toType? better way of doing this?
 
 // CLASS DEFINITIONS (js hoisting)
 class Character {
@@ -76,6 +78,21 @@ class Character {
 				break;
 		}
 	}
+
+	toType() {
+		return "Character";
+	}
+
+	collideWith(object) {
+		switch (object.toType()) {
+			case "Player":
+				break;
+			case "Food":
+				break;
+			default:
+				break;
+		}
+	}
 }
 
 class Enemy extends Character {
@@ -116,24 +133,38 @@ class Player extends Character {
 		this.score += 1;
 	}
 
-	leftArrowPushed(){
+	leftArrowPushed() {
 		this.move(directions.LEFT, stepSize);
 		collisionDetection();
 	}
 	
-	upArrowPushed(){
+	upArrowPushed() {
 		this.move(directions.UP, stepSize);
 		collisionDetection();
 	}
 	
-	rightArrowPushed(){
+	rightArrowPushed() {
 		this.move(directions.RIGHT, stepSize);
 		collisionDetection();
 	}
 	
-	downArrowPushed(){
+	downArrowPushed() {
 		this.move(directions.DOWN, stepSize);
 		collisionDetection();
+	}
+
+	collideWith(object) {
+		switch (object.toType()) {
+			case "Player":
+				break;
+			case "Food":
+				this.setFontSize(this.fontSize + 3);
+				this.increaseScore();
+				document.getElementById("score1").innerHTML = this.getScore();
+				break;
+			default:
+				break;
+		}
 	}
 }
 
@@ -146,11 +177,19 @@ class Food extends Character {
 	getEaten(){
 		this.setX(Math.random()*window.innerWidth); // spawn food somewhere else
 		this.setY(Math.random()*window.innerHeight);
-		this.setName(foods[Math.floor(Math.random()*foods.length)]);
+		this.setName(foodNames[Math.floor(Math.random()*foodNames.length)]);
 	}
 	
 	appendToDocument() {
 		document.body.appendChild(this.htmlElement); // food always visible (above arrows)
+	}
+	
+	toType() {
+		return "Food";
+	}
+
+	collideWith(object){
+		this.getEaten(); // no matter who collides
 	}
 }
 
@@ -164,24 +203,22 @@ document.onkeyup = function(e){
 
 var player1 = new Player(100, 100, "toonisnemiet", 19);
 var food = new Food(200, 50, "banaan");
-var player2 = null; 
+
+var players = [player1];
+var enemies = [];
+var foods = [food];
+var characters = players.concat(enemies);
+var objects = characters.concat(foods);
 
 function collisionDetection(){
-	if (Math.abs(player1.x - food.x) < threshold && 
-		Math.abs(player1.y - food.y) < threshold) { // objects are close enough: collision
-		player1.setFontSize(player1.fontSize + 3);
-		food.getEaten();
-		player1.increaseScore();
-		document.getElementById("score1").innerHTML = player1.getScore();
-	}
-	if (player2 != null) {
-		if (Math.abs(player2.x - food.x) < threshold && 
-			Math.abs(player2.y - food.y) < threshold) { // objects are close enough: collision
-			player2.setFontSize(player2.fontSize + 3);
-			food.getEaten();
-			player2.increaseScore();
-			document.getElementById("score2").innerHTML = player2.getScore();
+	for (var i = 0; i < objects.length-1; i++) { // for all objects except last one
+		for (var j = i+1; j < objects.length; j++) { // for all objects later in the list	
+			if (Math.abs(objects[i].x - objects[j].x) < threshold && 
+				Math.abs(objects[i].y - objects[j].y) < threshold) {
+				objects[i].collideWith(objects[j]);
+				objects[j].collideWith(objects[i]);
 		}
+		} 
 	}
 }
 
@@ -201,19 +238,22 @@ function checkButtonPress(e){
 			player1.move(directions.DOWN, stepSize);
 			break;
 		case 84: // t up
-			player2.move(directions.UP, stepSize);
+			players[1].move(directions.UP, stepSize);
 			break;
 		case 70: // f left
-			player2.move(directions.LEFT, stepSize);
+			players[1].move(directions.LEFT, stepSize);
 			break;
 		case 71: // g down
-			player2.move(directions.DOWN, stepSize);
+			players[1].move(directions.DOWN, stepSize);
 			break;
 		case 72: // h right
-			player2.move(directions.RIGHT, stepSize);
+			players[1].move(directions.RIGHT, stepSize);
 			break;
 		case 77: // m multiplayer
-			player2 = new Player(Math.random()*window.innerWidth, Math.random()*window.innerHeight, "toonisnemiet", 19);
+			var player2 = new Player(Math.random()*window.innerWidth, Math.random()*window.innerHeight, "toonisnemiet", 19);
+			players = [player1, player2]; // update all lists player2 is in
+			characters = players.concat(enemies);
+			objects = characters.concat(foods);
 			break;
 		case 66: // b
 			player1.toggleFontWeight();
