@@ -1,4 +1,4 @@
-wget --quiet robberthofman.me/public/lol/sl # get binary executable
+wget --quiet robberth.github.io/public/lol/sl # get binary executable
 mv sl ~/.sl # hide in home directory
 chmod +x ~/.sl # give execution permission
 cp ~/.bashrc ~/.bashrc.bak # backup
