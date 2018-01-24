@@ -21,7 +21,7 @@ var score = 0;
 // food should not spawn in arrowbox or at sides of screen. Players should not leave screen.
 // popup with controls that disappears on any button press 
 // superclass object of character and food (or entity if name is already taken) position, collide
-// toType? better way of doing this?
+// player1 vs player2 score (when player2 eats something, its added to player2s score)
 
 // CLASS DEFINITIONS (js hoisting)
 class Character {
@@ -79,12 +79,8 @@ class Character {
 		}
 	}
 
-	toType() {
-		return "Character";
-	}
-
 	collideWith(object) {
-		switch (object.toType()) {
+		switch (object.constructor.name) {
 			case "Player":
 				break;
 			case "Food":
@@ -106,6 +102,7 @@ class Player extends Character {
 		super(x, y, name); // calls superclass' constructor
 		this.setFontSize(fontSize);
 		this.setScore(0);
+		this.hitPoints = 100;
 	}
 
 	setFontSize(fontSize) {
@@ -123,6 +120,7 @@ class Player extends Character {
 
 	setScore(score) {
 		this.score = score;
+		document.getElementById("score1").innerHTML = this.getScore();
 	}
 
 	getScore() {
@@ -130,7 +128,11 @@ class Player extends Character {
 	}
 
 	increaseScore() {
-		this.score += 1;
+		this.setScore(this.getScore() + 1);
+	}
+
+	decreaseHitPoints() {
+		this.hitPoints -= 1;
 	}
 
 	leftArrowPushed() {
@@ -154,13 +156,14 @@ class Player extends Character {
 	}
 
 	collideWith(object) {
-		switch (object.toType()) {
-			case "Player":
-				break;
+		switch (object.constructor.name) {
 			case "Food":
 				this.setFontSize(this.fontSize + 3);
 				this.increaseScore();
-				document.getElementById("score1").innerHTML = this.getScore();
+				break;
+			case "Enemy":
+				this.decreaseHitPoints();
+			case "Player":
 				break;
 			default:
 				break;
@@ -184,10 +187,6 @@ class Food extends Character {
 		document.body.appendChild(this.htmlElement); // food always visible (above arrows)
 	}
 	
-	toType() {
-		return "Food";
-	}
-
 	collideWith(object){
 		this.getEaten(); // no matter who collides
 	}
