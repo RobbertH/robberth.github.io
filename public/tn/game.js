@@ -98,9 +98,10 @@ class Enemy extends Character {
 }
 
 class Player extends Character {
-	constructor(x, y, name, fontSize=12){
+	constructor(x, y, name, fontSize=12, scoreID){
 		super(x, y, name); // calls superclass' constructor
 		this.setFontSize(fontSize);
+		this.scoreID = scoreID;
 		this.setScore(0);
 		this.hitPoints = 100;
 	}
@@ -120,7 +121,7 @@ class Player extends Character {
 
 	setScore(score) {
 		this.score = score;
-		document.getElementById("score1").innerHTML = this.getScore();
+		document.getElementById(this.scoreID).innerHTML = this.getScore();
 	}
 
 	getScore() {
@@ -174,7 +175,6 @@ class Player extends Character {
 class Food extends Character {
 	constructor(x=0, y=0, name="") {
 		super(x, y, name);
-
 	}
 
 	getEaten(){
@@ -200,7 +200,7 @@ document.onkeyup = function(e){
 	collisionDetection();
 };
 
-var player1 = new Player(100, 100, "toonisnemiet", 19);
+var player1 = new Player(100, 100, "toonisnemiet", 19, "score1");
 var food = new Food(200, 50, "banaan");
 
 var players = [player1];
@@ -210,13 +210,13 @@ var characters = players.concat(enemies);
 var objects = characters.concat(foods);
 
 function collisionDetection(){
-	for (var i = 0; i < objects.length-1; i++) { // for all objects except last one
+	for (var i = 0; i < Math.ceil(objects.length/2); i++) { // all objects in 1st half of the list 
 		for (var j = i+1; j < objects.length; j++) { // for all objects later in the list	
 			if (Math.abs(objects[i].x - objects[j].x) < threshold && 
 				Math.abs(objects[i].y - objects[j].y) < threshold) {
 				objects[i].collideWith(objects[j]);
 				objects[j].collideWith(objects[i]);
-		}
+			}
 		} 
 	}
 }
@@ -225,16 +225,16 @@ function checkButtonPress(e){
 	console.log(e.which); // check which button is being pressed
 	switch (e.which) {
 		case 37: // left
-			player1.move(directions.LEFT, stepSize);
+			players[0].move(directions.LEFT, stepSize);
 			break;
 		case 38: // up
-			player1.move(directions.UP, stepSize);
+			players[0].move(directions.UP, stepSize);
 			break;
 		case 39: // right
-			player1.move(directions.RIGHT, stepSize);
+			players[0].move(directions.RIGHT, stepSize);
 			break;
 		case 40: // down
-			player1.move(directions.DOWN, stepSize);
+			players[0].move(directions.DOWN, stepSize);
 			break;
 		case 84: // t up
 			players[1].move(directions.UP, stepSize);
@@ -249,18 +249,18 @@ function checkButtonPress(e){
 			players[1].move(directions.RIGHT, stepSize);
 			break;
 		case 77: // m multiplayer
-			var player2 = new Player(Math.random()*window.innerWidth, Math.random()*window.innerHeight, "toonisnemiet", 19);
-			players = [player1, player2]; // update all lists player2 is in
+			let player2 = new Player(Math.random()*window.innerWidth, Math.random()*window.innerHeight, "toonisnemiet", 19, "score2");
+			players = players.concat([player2]); // update all lists player2 is in
 			characters = players.concat(enemies);
 			objects = characters.concat(foods);
 			break;
-		case 66: // b
-			player1.toggleFontWeight();
-			player2.toggleFontWeight();
+		case 66: // b bold
+			players[0].toggleFontWeight();
+			players[1].toggleFontWeight();
 			break;
-		case 82: // r
-			player1.setColor("orange");
-			player2.setColor("red");
+		case 82: // r color
+			players[0].setColor("orange");
+			players[1].setColor("red");
 			break;
 		default: // default
 			break;
