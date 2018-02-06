@@ -4,111 +4,140 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<title>Sudoku solver</title>
+		<style type="text/css" media="all">
+		.sudokuField {
+			width: 15px;
+		}
+		</style>
+
 	</head>
 	<body>
 		<table>
 			<tr>
-				<td><input type="text" name="field_0_0" id="field_0_0" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_0_1').focus(); autofocus" /></td>	
-				<td><input type="text" name="field_0_1" id="field_0_1" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_0_2').focus();" /></td>	
-				<td><input type="text" name="field_0_2" id="field_0_2" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_0_3').focus();" /></td>	
-				<td><input type="text" name="field_0_3" id="field_0_3" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_0_4').focus();" /></td>	
-				<td><input type="text" name="field_0_4" id="field_0_4" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_0_5').focus();" /></td>	
-				<td><input type="text" name="field_0_5" id="field_0_5" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_0_6').focus();" /></td>	
-				<td><input type="text" name="field_0_6" id="field_0_6" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_0_7').focus();" /></td>	
-				<td><input type="text" name="field_0_7" id="field_0_7" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_0_8').focus();" /></td>	
-				<td><input type="text" name="field_0_8" id="field_0_8" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_1_0').focus();" /></td>	
+				<td><input type="text" name="field_0_0" id="field_0_0" class="sudokuField" maxlength=1  /></td>	
+				<td><input type="text" name="field_0_1" id="field_0_1" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_0_2" id="field_0_2" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_0_3" id="field_0_3" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_0_4" id="field_0_4" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_0_5" id="field_0_5" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_0_6" id="field_0_6" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_0_7" id="field_0_7" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_0_8" id="field_0_8" class="sudokuField" maxlength=1 /></td>	
 			</tr>
 			<tr>
-				<td><input type="text" name="field_1_0" id="field_1_0" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_1_1').focus();" /></td>	
-				<td><input type="text" name="field_1_1" id="field_1_1" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_1_2').focus();" /></td>	
-				<td><input type="text" name="field_1_2" id="field_1_2" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_1_3').focus();" /></td>	
-				<td><input type="text" name="field_1_3" id="field_1_3" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_1_4').focus();" /></td>	
-				<td><input type="text" name="field_1_4" id="field_1_4" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_1_5').focus();" /></td>	
-				<td><input type="text" name="field_1_5" id="field_1_5" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_1_6').focus();" /></td>	
-				<td><input type="text" name="field_1_6" id="field_1_6" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_1_7').focus();" /></td>	
-				<td><input type="text" name="field_1_7" id="field_1_7" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_1_8').focus();" /></td>	
-				<td><input type="text" name="field_1_8" id="field_1_8" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_2_0').focus();" /></td>	
+				<td><input type="text" name="field_1_0" id="field_1_0" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_1_1" id="field_1_1" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_1_2" id="field_1_2" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_1_3" id="field_1_3" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_1_4" id="field_1_4" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_1_5" id="field_1_5" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_1_6" id="field_1_6" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_1_7" id="field_1_7" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_1_8" id="field_1_8" class="sudokuField" maxlength=1 /></td>	
 			</tr>
 			<tr>
-				<td><input type="text" name="field_2_0" id="field_2_0" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_2_1').focus();" /></td>	
-				<td><input type="text" name="field_2_1" id="field_2_1" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_2_2').focus();" /></td>	
-				<td><input type="text" name="field_2_2" id="field_2_2" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_2_3').focus();" /></td>	
-				<td><input type="text" name="field_2_3" id="field_2_3" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_2_4').focus();" /></td>	
-				<td><input type="text" name="field_2_4" id="field_2_4" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_2_5').focus();" /></td>	
-				<td><input type="text" name="field_2_5" id="field_2_5" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_2_6').focus();" /></td>	
-				<td><input type="text" name="field_2_6" id="field_2_6" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_2_7').focus();" /></td>	
-				<td><input type="text" name="field_2_7" id="field_2_7" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_2_8').focus();" /></td>	
-				<td><input type="text" name="field_2_8" id="field_2_8" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_3_0').focus();" /></td>	
+				<td><input type="text" name="field_2_0" id="field_2_0" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_2_1" id="field_2_1" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_2_2" id="field_2_2" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_2_3" id="field_2_3" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_2_4" id="field_2_4" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_2_5" id="field_2_5" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_2_6" id="field_2_6" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_2_7" id="field_2_7" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_2_8" id="field_2_8" class="sudokuField" maxlength=1 /></td>	
 			</tr>
 			<tr>
-				<td><input type="text" name="field_3_0" id="field_3_0" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_3_1').focus();" /></td>	
-				<td><input type="text" name="field_3_1" id="field_3_1" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_3_2').focus();" /></td>	
-				<td><input type="text" name="field_3_2" id="field_3_2" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_3_3').focus();" /></td>	
-				<td><input type="text" name="field_3_3" id="field_3_3" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_3_4').focus();" /></td>	
-				<td><input type="text" name="field_3_4" id="field_3_4" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_3_5').focus();" /></td>	
-				<td><input type="text" name="field_3_5" id="field_3_5" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_3_6').focus();" /></td>	
-				<td><input type="text" name="field_3_6" id="field_3_6" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_3_7').focus();" /></td>	
-				<td><input type="text" name="field_3_7" id="field_3_7" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_3_8').focus();" /></td>	
-				<td><input type="text" name="field_3_8" id="field_3_8" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_4_0').focus();" /></td>	
+				<td><input type="text" name="field_3_0" id="field_3_0" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_3_1" id="field_3_1" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_3_2" id="field_3_2" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_3_3" id="field_3_3" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_3_4" id="field_3_4" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_3_5" id="field_3_5" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_3_6" id="field_3_6" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_3_7" id="field_3_7" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_3_8" id="field_3_8" class="sudokuField" maxlength=1 /></td>	
 			</tr>
 			<tr>
-				<td><input type="text" name="field_4_0" id="field_4_0" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_4_1').focus();" /></td>	
-				<td><input type="text" name="field_4_1" id="field_4_1" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_4_2').focus();" /></td>	
-				<td><input type="text" name="field_4_2" id="field_4_2" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_4_3').focus();" /></td>	
-				<td><input type="text" name="field_4_3" id="field_4_3" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_4_4').focus();" /></td>	
-				<td><input type="text" name="field_4_4" id="field_4_4" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_4_5').focus();" /></td>	
-				<td><input type="text" name="field_4_5" id="field_4_5" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_4_6').focus();" /></td>	
-				<td><input type="text" name="field_4_6" id="field_4_6" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_4_7').focus();" /></td>	
-				<td><input type="text" name="field_4_7" id="field_4_7" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_4_8').focus();" /></td>	
-				<td><input type="text" name="field_4_8" id="field_4_8" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_5_0').focus();" /></td>	
+				<td><input type="text" name="field_4_0" id="field_4_0" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_4_1" id="field_4_1" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_4_2" id="field_4_2" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_4_3" id="field_4_3" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_4_4" id="field_4_4" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_4_5" id="field_4_5" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_4_6" id="field_4_6" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_4_7" id="field_4_7" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_4_8" id="field_4_8" class="sudokuField" maxlength=1 /></td>	
 			</tr>
 			<tr>
-				<td><input type="text" name="field_5_0" id="field_5_0" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_5_1').focus();" /></td>	
-				<td><input type="text" name="field_5_1" id="field_5_1" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_5_2').focus();" /></td>	
-				<td><input type="text" name="field_5_2" id="field_5_2" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_5_3').focus();" /></td>	
-				<td><input type="text" name="field_5_3" id="field_5_3" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_5_4').focus();" /></td>	
-				<td><input type="text" name="field_5_4" id="field_5_4" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_5_5').focus();" /></td>	
-				<td><input type="text" name="field_5_5" id="field_5_5" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_5_6').focus();" /></td>	
-				<td><input type="text" name="field_5_6" id="field_5_6" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_5_7').focus();" /></td>	
-				<td><input type="text" name="field_5_7" id="field_5_7" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_5_8').focus();" /></td>	
-				<td><input type="text" name="field_5_8" id="field_5_8" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_6_0').focus();" /></td>	
+				<td><input type="text" name="field_5_0" id="field_5_0" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_5_1" id="field_5_1" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_5_2" id="field_5_2" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_5_3" id="field_5_3" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_5_4" id="field_5_4" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_5_5" id="field_5_5" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_5_6" id="field_5_6" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_5_7" id="field_5_7" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_5_8" id="field_5_8" class="sudokuField" maxlength=1 /></td>	
 			</tr>
 			<tr>
-				<td><input type="text" name="field_6_0" id="field_6_0" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_6_1').focus();" /></td>	
-				<td><input type="text" name="field_6_1" id="field_6_1" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_6_2').focus();" /></td>	
-				<td><input type="text" name="field_6_2" id="field_6_2" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_6_3').focus();" /></td>	
-				<td><input type="text" name="field_6_3" id="field_6_3" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_6_4').focus();" /></td>	
-				<td><input type="text" name="field_6_4" id="field_6_4" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_6_5').focus();" /></td>	
-				<td><input type="text" name="field_6_5" id="field_6_5" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_6_6').focus();" /></td>	
-				<td><input type="text" name="field_6_6" id="field_6_6" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_6_7').focus();" /></td>	
-				<td><input type="text" name="field_6_7" id="field_6_7" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_6_8').focus();" /></td>	
-				<td><input type="text" name="field_6_8" id="field_6_8" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_7_0').focus();" /></td>	
+				<td><input type="text" name="field_6_0" id="field_6_0" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_6_1" id="field_6_1" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_6_2" id="field_6_2" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_6_3" id="field_6_3" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_6_4" id="field_6_4" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_6_5" id="field_6_5" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_6_6" id="field_6_6" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_6_7" id="field_6_7" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_6_8" id="field_6_8" class="sudokuField" maxlength=1 /></td>	
 			</tr>
 			<tr>
-				<td><input type="text" name="field_7_0" id="field_7_0" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_7_1').focus();" /></td>	
-				<td><input type="text" name="field_7_1" id="field_7_1" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_7_2').focus();" /></td>	
-				<td><input type="text" name="field_7_2" id="field_7_2" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_7_3').focus();" /></td>	
-				<td><input type="text" name="field_7_3" id="field_7_3" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_7_4').focus();" /></td>	
-				<td><input type="text" name="field_7_4" id="field_7_4" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_7_5').focus();" /></td>	
-				<td><input type="text" name="field_7_5" id="field_7_5" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_7_6').focus();" /></td>	
-				<td><input type="text" name="field_7_6" id="field_7_6" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_7_7').focus();" /></td>	
-				<td><input type="text" name="field_7_7" id="field_7_7" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_7_8').focus();" /></td>	
-				<td><input type="text" name="field_7_8" id="field_7_8" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_8_0').focus();" /></td>	
+				<td><input type="text" name="field_7_0" id="field_7_0" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_7_1" id="field_7_1" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_7_2" id="field_7_2" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_7_3" id="field_7_3" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_7_4" id="field_7_4" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_7_5" id="field_7_5" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_7_6" id="field_7_6" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_7_7" id="field_7_7" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_7_8" id="field_7_8" class="sudokuField" maxlength=1 /></td>	
 			</tr>
 			<tr>
-				<td><input type="text" name="field_8_0" id="field_8_0" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_8_1').focus();" /></td>	
-				<td><input type="text" name="field_8_1" id="field_8_1" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_8_2').focus();" /></td>	
-				<td><input type="text" name="field_8_2" id="field_8_2" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_8_3').focus();" /></td>	
-				<td><input type="text" name="field_8_3" id="field_8_3" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_8_4').focus();" /></td>	
-				<td><input type="text" name="field_8_4" id="field_8_4" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_8_5').focus();" /></td>	
-				<td><input type="text" name="field_8_5" id="field_8_5" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_8_6').focus();" /></td>	
-				<td><input type="text" name="field_8_6" id="field_8_6" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_8_7').focus();" /></td>	
-				<td><input type="text" name="field_8_7" id="field_8_7" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_8_8').focus();" /></td>	
-				<td><input type="text" name="field_8_8" id="field_8_8" style="width: 15px" maxlength=1 onkeyup="document.getElementById('field_8_8').focus();" /></td>	
+				<td><input type="text" name="field_8_0" id="field_8_0" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_8_1" id="field_8_1" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_8_2" id="field_8_2" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_8_3" id="field_8_3" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_8_4" id="field_8_4" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_8_5" id="field_8_5" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_8_6" id="field_8_6" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_8_7" id="field_8_7" class="sudokuField" maxlength=1 /></td>	
+				<td><input type="text" name="field_8_8" id="field_8_8" class="sudokuField" maxlength=1 /></td>	
 			</tr>
 		</table>
 		<script src="sudoku.js"></script>	
 		<button type="submit" onClick="main()">submit</button>
-	</body>
+		<script charset="utf-8">
+		// this script focuses the cursor on the next field on correct user input
+			for (let i = 0; i < 9; i++) {
+				for (let j = 0; j < 9; j++) {
+					var sudokuField = "field_" + i + "_" + j;
+					let nextSudokuField; // important use of let keyword!
+					if (i == 8 && j == 8) {
+						nextSudokuField = "field_8_8";
+					}
+					else if (j == 8) {
+						nextSudokuField = "field_" + String(i+1) + "_0";
+					}
+					else {
+						nextSudokuField = "field_" + String(i) + "_" + String(j+1);
+					}
 
+					document.getElementById(sudokuField).onkeyup = function(e) {
+						if (e.which > 48 && e.which < 58) { // 1-9 pushed
+							document.getElementById(nextSudokuField).focus();
+						}
+					}
+				}
+			}
+		</script>
+	</body>
 </html>

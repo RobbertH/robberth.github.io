@@ -4,7 +4,7 @@
 // add borders
 // beautify
 // clean up code (col vs column_index)
-// do something about the input method, not every keyup should invoke func call
+// reset button for users unaware of ctrl f5 (just erase all fields, one button for each matrix)
 
 // sudoku has 9 3x3 subFields. In every subfield, the numbers 1-9 should occur strictly once.
 //	fields are ordered [[0,1,2],[3,4,5],[6,7,8]] (from left to right and up to down)
