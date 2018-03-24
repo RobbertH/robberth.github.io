@@ -20,7 +20,7 @@ I guess the pictures tell the story better than I can:
 <img src="/assets/img/peugeot/peugeot3.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
 <i>Before picture of the bike</i><br><br>
 <img src="/assets/img/peugeot/peugeot1.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
-<i>Our system of painting the wheels, but not the tires.</i><br><br>
+<i>Our system of painting the wheels, but not the tires. This was necessary because for some reason, the tires were glued to the wheels. </i><br><br>
 <img src="/assets/img/peugeot/peugeot2.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
 <i>Painting done. Time to reassemble.</i><br><br>
 <img src="/assets/img/peugeot/peugeot4.jpg" alt="peugeot" style="width: 100%; vertical-align: middle;"/><br>
