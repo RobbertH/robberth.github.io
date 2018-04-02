@@ -1,6 +1,5 @@
 // TODO 
 // reset original (user input, in case user made a mistake) 
-// or work with 2 matrices (input --> output)
 // add borders
 // beautify
 // clean up code (col vs column_index)
@@ -26,7 +25,7 @@ function fetch_sudoku() {
 	var intermediate_array = [];
 	for (var row = 0; row < 9; row++) {
 		for (var col = 0; col < 9; col++) {
-			var identity = "field_" + String(row) + "_" + String(col);	
+			var identity = "field_0_" + String(row) + "_" + String(col);	
 			intermediate_array.push(parseInt(document.getElementById(identity).value)); 
 		}	
 		sudokuField.push(intermediate_array);
@@ -101,7 +100,7 @@ function output_solution(solution){
 	for (var row = 0; row < 9; row++) {
 		for (var col = 0; col < 9; col++) {
 			var content = solution[row][col];
-			var identity = "field_" + String(row) + "_" + String(col);
+			var identity = "field_1_" + String(row) + "_" + String(col);
 			document.getElementById(identity).value = content; 
 		}	
 	}
