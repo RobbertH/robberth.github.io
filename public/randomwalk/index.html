@@ -8,12 +8,12 @@
 		<canvas id="myCanvas"> </canvas>
 		<form action="" method="post">
 			<input type="checkbox" name="drawPath" id="drawPath" /> draw path
+			<button type="button" onClick="wipePath()">wipe path</button>
 		</form>
 		<div id="character" style="position: fixed">character</div>
 		<input type="range" name="stepSizeSlider" id="stepSizeSlider" min="1" max="20" value=10" step="1">stepSize</input>
 		<script charset="utf-8">
 			//TODO: 
-			// add button to wipe existing path
 			// separate js and html
 			// fix variable declarations and stuff
 			// js scopes? not everything should be global 
@@ -21,7 +21,6 @@
 			var x, y; 
 			var ctx;
 			var stepSize = 10;
-			var path = [];
 			var slider = document.getElementById(stepSizeSlider);
 
 			x = window.innerWidth/2 - document.getElementById("character").clientWidth;
@@ -49,6 +48,13 @@
 
 			stepSizeSlider.onchange = function() { // event listener (no html tag!)
 				stepSize = this.value; // this is very cool! interrupt like!
+			}
+
+			function wipePath() {
+				ctx.beginPath();
+				ctx.fillStyle = "white";
+				ctx.fillRect(0, 0, c.width, c.height);
+				ctx.stroke(); // actually draw rect
 			}
 		</script>	
 	</body>
