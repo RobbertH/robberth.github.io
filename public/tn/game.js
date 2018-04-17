@@ -20,7 +20,6 @@ var score = 0;
 // fix collision detection for div size instead of upperleft point
 // substitute text for low-res pictures (or not? :p)
 // when holding a key down do multiple moves immediately
-// food should not spawn in arrowbox or at sides of screen. Players should not leave screen.
 // popup with controls that disappears on any button press 
 // superclass object of character and food (or entity if name is already taken) position, collide
 // player1 vs player2 score (when player2 eats something, its added to player2s score)
