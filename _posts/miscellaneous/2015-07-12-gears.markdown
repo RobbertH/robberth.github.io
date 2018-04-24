@@ -2,8 +2,7 @@
 layout: post
 title:  "Gears"
 date:   2015-07-18 11:16:16
-categories: miscellaneous
-permalink:  /lifequestions/gears/
+categories: draft 
 ---
 <h2>Prime numbers</h2>
 <b>Q:</b> Why do the amounts of teeth in gears often appear in prime numbers?
