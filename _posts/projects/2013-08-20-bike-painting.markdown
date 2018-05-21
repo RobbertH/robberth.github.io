@@ -9,7 +9,7 @@ I was bored during summer vacations, so I decided to do my first DIY project, to
 I went ahead and bought a road bike. I was able to get my hands on an old one for just
 €50. I wanted to color it almost entirely black with just a few fluoresecent yellow accents on it.
 We even made a drawing before coloring it:<br>
-<img src="/assets/img/peugeot/bikeDrawing.jpg" alt="bikeDrawing" style="width: 500px; vertical-align: middle;"/><br>
+<img src="/assets/img/peugeot/bikeDrawing.jpg" alt="bikeDrawing" style="width: 100%; vertical-align: middle;"/><br>
 So that was the idea, but when we went to the shop, the fluorescent yellow paint
 turned out to be really expensive, so we decided to buy only one can. Of course, it was not sufficient,
 so we ended up replacing the color for some light green, spending a total of another €50
