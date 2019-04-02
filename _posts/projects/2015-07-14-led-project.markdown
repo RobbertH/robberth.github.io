@@ -2,7 +2,7 @@
 layout: post
 title:  "LED Project"
 date:   2015-07-14 19:12:16
-categories: projects
+categories: draft
 ---
 <h2>Components</h2>
 <ul>
@@ -77,6 +77,3 @@ move away from the breadboard and solder everything together. After soldering, I
 broke a transistor (probably couldn't handle the heat) so that one of the LED strips'
 red was always on. I am considering moving on to a PCB for overall sturdiness and
 compactness.
-
-<h2>Pictures</h2>
-Yet to come

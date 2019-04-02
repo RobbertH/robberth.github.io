@@ -7,8 +7,7 @@ categories: projects
 
 <h2>Background & Concept</h2>
 One day, I was at my friend's dorm room and we noticed that one could see my
-dorm from his. So we started joking around and as we are engineering students, lasers came up.
-We were thinking about communicating with lasers from his dormitory to mine and the
+dorm from his. We were thinking about communicating with lasers from his dormitory to mine and the
 other way round. Of course, I took this seriously and started building it. So far
 I have one arduino that is able to communicate with itself via visible light.
 Theoretically, the only thing we would have to do is replace the LEDs used right now
@@ -28,7 +27,6 @@ A lot is still wrong with this prototype. Problems/TODOs that I know of right no
 	<li> Problem of syncing between two arduinos should be solved </li>
 	<li> Error correction code can be added </li>
 </ul>
-I am planning on making a follow-up post soon.
 
 <h2>Components</h2>
 <ul>
