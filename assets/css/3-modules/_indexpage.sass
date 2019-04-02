@@ -5,7 +5,7 @@
   background-size: cover
 
   .darkenedBackground
-    background-color: rgba(0,0,0,0.2)
+    background-color: rgba(0,0,0,0.4)
     margin: auto
     min-height: 100vh 
     display: flex
@@ -15,70 +15,43 @@
     .indexPageHeader
       nav
         text-align: center
-        padding-top: 1vh
+        padding-top: 5vh
         a
           display: inline-block
           margin-left: 20px
-          color: rgba(255, 255, 255, 0.8)
+          color: rgba(255, 255, 255, 0.9)
           font:
-            size: 24px
+            size: 3vh
             weight: 700
           text-transform: uppercase
           &:hover
             color: rgba(80, 160, 180, 1)
         .active
-          color: rgba(255, 255, 255, 1)
-          border-bottom: white solid 7px
+          color: rgba(255, 255, 255, 0.9)
+          border-bottom: rgba(255, 255, 255, 0.9) solid 7px
 
       h1
         text-align: center
         hyphens: none
         font:
-          size: 7vh
+          size: 12vmin
           weight: 700
-        color: #ffffff
+        color: rgba(255, 255, 255, 1)
         text-transform: uppercase
         letter-spacing: 0.05em
-        margin-top: 2vh
-        margin-bottom: 10px
+        margin-top: 20vh
+        //margin-bottom: 10px
 
         span
           display: inline-block
           padding: 0.2em 0.4em
-          border: white solid 7px
+          border: rgba(255, 255, 255, 1) solid 1vh
       .kicker
-        color: rgba(255,255,255,1)
+        color: rgba(255,255,255,0.9)
         text-align: center
         font:
           weight: 700
-          size: 2vh
+          size: 3vh
         text-transform: uppercase
         padding: 20px 0px 0px 0px
   
-    .indexPageContent
-      min-height: 60%
-      width: 90%
-      margin-left: 5%
-      display: flex
-      flex-direction: row
-      flex-wrap: wrap-reverse
-      justify-content: center
-      align-items: center
-      margin-bottom: 20vh
-
-      .divLeft
-        h2
-          color: white
-        article
-          color: white
-          font:
-            weight: 600
-        h3
-          color: white
-
-      .divRight
-        align-items: center
-        img
-          margin-top: 3vw
-          width: 30vh 
-          filter: brightness(90%)

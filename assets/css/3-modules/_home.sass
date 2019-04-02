@@ -75,17 +75,48 @@ article
   margin-top: 2em
   margin-bottom: 5em
 
-.divLeft
-  text-align: center
-  article
-    margin: auto
+.indexPageContent
+  min-height: 60%
+  width: 100%
+  margin-left: 0%
+  display: flex
+  flex-direction: row-reverse
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+  margin-bottom: 00vh
 
-.divRight
-  text-align: center
-  img
-    width: 400px
-    max-width: 100% // never push the div boundaries
-    border-radius: 50% // make it look like a circle
+  .divLeft
+    margin: auto
+    text-align: center
+    h2
+      color: black
+    article
+      padding: 0
+      margin: 0
+      color: black
+    h3
+      color: black
+    .icon
+      margin-top: 1vh
+      min-width: 50px
+      width: 15%
+
+  .divRight
+    margin: auto
+    border: white solid 1px
+    flex-wrap: wrap
+    min-height: 300px
+    min-width: 300px
+    //flex-basis: 49%
+    text-align: center
+    //align-items: center
+    img
+      margin-top: 0vw
+      width: 90% 
+      filter: brightness(100%)
+      max-width: 100% // never push div boundaries
+      border-radius: 50% // circle
 
 // only for screens bigger than min-width
 @media (min-width: 1081px) 
@@ -97,3 +128,5 @@ article
   .divRight
     flex-basis: 20% 
     margin: auto 0
+
+

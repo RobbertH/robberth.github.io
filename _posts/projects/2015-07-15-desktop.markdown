@@ -2,7 +2,7 @@
 layout: post
 title:  "Desktop build"
 date:   2014-07-15 21:03:25
-categories: projects
+categories: draft
 ---
 
 In the summer of 2012, I decided to build my own pc. It would be an AMD build,
@@ -40,4 +40,3 @@ fans to be quiet. Unfortunately, it was not an OS problem and my
 computer still freezes from time to time. I haven't figured out what the problem is.
 
 <br>
-Pictures yet to come

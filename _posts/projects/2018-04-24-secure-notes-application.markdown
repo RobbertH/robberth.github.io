@@ -16,3 +16,9 @@ make design choices (e.g. salting password hashes).
 <h2>Code</h2>
 The code can be found on this [Github repo](https://github.com/RobbertH/secureNotesApp).
 
+<h2>Screenshots</h2>
+
+<img src="/assets/img/secureNotes/LoginPage.png" alt="loginPage" style="width: 49%; vertical-align: middle;"/>
+<img src="/assets/img/secureNotes/HomePage.png" alt="homePage" style="width: 49%; vertical-align: middle;"/>
+<br><br>
+<img src="/assets/img/secureNotes/NoteEditor.png" alt="noteEditor" style="width: 49%; vertical-align: middle;"/><br>

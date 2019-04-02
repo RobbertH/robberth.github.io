@@ -19,9 +19,15 @@
 		{% else %}
 			<a href="/peru">Peru</a>
 		{% endif %}
+
+		{% if currenturl[1] == "about" %}
+			<a class="active" href="/about">About</a>
+		{% else %}
+			<a href="/about">About</a>
+		{% endif %}
 	</nav>
 
 	<h1><span>Robbert Hofman</span></h1>
-	<p class="kicker">Electronics engineering student @ KU Leuven</p>
+	<p class="kicker">Engineering student @ KU Leuven</p>
 
 </header>

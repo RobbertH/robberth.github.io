@@ -24,38 +24,15 @@ layout: indexpage
 			{% else %}
 				<a href="/peru">Peru</a>
 			{% endif %}
+
+			{% if currenturl[1] == "about" %}
+				<a class="active" href="/about">About</a>
+			{% else %}
+				<a href="/about">About</a>
+			{% endif %}
 		</nav>
 
 		<h1><span>Robbert Hofman</span></h1>
-		<p class="kicker">Electronics engineering student @ KU Leuven</p>
+	<p class="kicker">Engineering student @ KU Leuven</p>
 	</div>
-
-	<div class="indexPageContent">
-		<div class="divLeft">
-			<h2> Welcome </h2>
-			<article>
-				I will mostly use this website for blogging about my
-				projects. 
-				The goal of publishing these is twofold: for one, it allows me to review a project
-				in retrospect, and secondly, anyone interested can read about
-				what I spend my free time on. 
-				You can find my project posts here: <a href="/projects">projects page</a>.
-				Enjoy yourself! 
-				<br> <br>
-			</article>
-
-			<div class="icon linkedin">
-				<a href="http://www.linkedin.com/in/robberthofman">{% include icons/linkedin.html %}</a>
-			</div>
-			<div class="icon github">
-				<a href="http://www.github.com/robberth">{% include icons/github.html %}</a>
-			</div>
-		</div>
-
-		<div class="divRight">
-			<img src="/assets/img/about/robbertColor.jpg"/>
-			<p style="color: white"><b>"Creativity is randomness placed into a framework."</b></p>
-		</div>
-	</div>
-
 </div>
