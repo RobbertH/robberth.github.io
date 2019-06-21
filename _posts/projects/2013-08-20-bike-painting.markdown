@@ -5,15 +5,17 @@ date: 2013-08-20
 categories: projects
 ---
 <h2>Background</h2>
-I was bored during summer vacations, so I decided to do my first DIY project, together with a good friend of mine.
-I went ahead and bought a road bike. I was able to get my hands on an old one for just
-€50. I wanted to color it almost entirely black with just a few fluoresecent yellow accents on it.
-We even made a drawing before coloring it:<br>
-<img src="/assets/img/peugeot/bikeDrawing.jpg" alt="bikeDrawing" style="width: 100%; vertical-align: middle;"/><br>
+It was on an uneventful day during summer vacations that I decided to do my first DIY project, together with a good friend of mine.
+I was able to get my hands on an old road bike for just €50.
+I wanted to color it almost entirely black with just a few fluoresecent yellow accents on it.
+We thought it'd be a good idea to make a drawing before coloring it:
+
+<img src="/assets/img/peugeot/bikeDrawing.jpg" alt="bikeDrawing" style="width: 100%; vertical-align: middle;"/>
+
 So that was the idea, but when we went to the shop, the fluorescent yellow paint
 turned out to be really expensive, so we decided to buy only one can. Of course, it was not sufficient,
 so we ended up replacing the color for some light green, spending a total of another €50
-on paint, lacquer and cleaning product. Eventually, we also made some design changes.
+on paint, lacquer and cleaning product. Eventually, we also made some changes to the original design, because it would look a bit too busy with all those flashy accents on the bike.
 
 I guess the pictures tell the story better than I can:
 <br>
