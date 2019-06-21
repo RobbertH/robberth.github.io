@@ -17,9 +17,9 @@ arduinos on at the exact right time. For example, a problem that can occur now i
 we use two distinct arduinos is that one arduino starts sending, and the other starts receiving
 when the fourth bit already has been sent. That's why I will need to implement a
 preamble or something alike. This remains to be done. I already ordered the
-lasers, so I'll keep you guys up to date.
+lasers, so I'll keep you guys up to date if I ever find the time to work on this again.
 
-<h2> Update </h2>
+<h2> TODOs </h2>
 A lot is still wrong with this prototype. Problems/TODOs that I know of right now include:
 <ul>
 	<li> Encoding should be according to ASCII </li>

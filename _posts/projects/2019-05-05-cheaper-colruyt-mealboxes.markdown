@@ -15,18 +15,15 @@ The other is that it's a preconfigured package, so you just have to order the on
 
 So my friend figured he'd just copy all ingredients from the mealbox page, and insert them into Collect & Go.
 This turned out to save him money, while he was getting more (the 0.75 pots of yoghurt are of course not for sale in the collect & go).
-Since copying all these ingredients is somewhat time consuming, I wrote two scripts that automate the process.
+Since copying all these ingredients is somewhat time consuming, I wrote a script to automate the process.
 
+Main consists of two functions, extract\_ingredients and buy\_ingredient.
 The first one fetches all ingredients and opens new tabs that search for these ingredients.
 The second one buys the first search result once and then closes the tab again.
 
-This is more of a proof of concept, it's not robust at all and it can be easily put into one script by deciding which function to execute based on the URL.
+This is more of a proof of concept, it's not robust at all, but it works.
 
 <h2>Code</h2>
 {% highlight javascript %}
 {% include other/crackAndGo.js %}
-{% endhighlight %}
-
-{% highlight javascript %}
-{% include other/crackAndProceed.js %}
 {% endhighlight %}

@@ -12,19 +12,19 @@ of which the most important is that you have to push the other robot out of
 the doyo without damaging it. And the robots mustn't be controlled by a user, but
 do everything on its own.
 
-The main question is where and how to place the sensors. There are a lot of options
+One of the biggest questions I had is where and how to place the sensors. There are a lot of options
 here: two at the front / one on each side / one rotating on a servo / ... I watched
 some videos and did some research and decided to go with the "two at the front"
 approach, which works as follows: the robot spins around until it finds something
 close enough to consider as a target. If one sensor measures a short distance and
 the other a long, then the robot will spin until both sensors measure a short
-distance, so the robot is always pointing at it's target. <br>
+distance, so the robot is always pointing at its target. <br>
 
-In the world of sensors, you basically have 3 cheap options: ultrasonic HC-SR04,
+When looking online, I found that there are basically 3 cheap options for sensors: ultrasonic HC-SR04,
 infrared FC-51 or an infrared Sharp sensor. I bought the FC-51's because I thought
 HC-SR04's would interfere too much with each other and possibly with the enemy, but
 that didn't work out for me. They are just completely unusable. Luckily, I had
-some HC-SR04's lying around.
+some HC-SR04's lying around so I switched to them.
 
 <h2>Components</h2>
 <ul>
@@ -48,7 +48,7 @@ some HC-SR04's lying around.
 
 This was going to be a small robot, so I knew I would have to build in height. I
 also didn't want to spend a lot of money on the case, so I decided it'd have to be
-built in fablab, with 3mm thick 600x300mm MDF wood plates and lasercutters. So I went ahead and drew some inkscape files (see below). I went to fablab to get it all lasercutted
+built in [fablab](https://fablab-leuven.be/), with 3mm thick 600x300mm MDF wood plates and lasercutters. So I went ahead and drew some inkscape files (see below). I went to fablab to get it all lasercutted
 and glued the pieces together. It has many levels, each containing some components.
 <br>
 
@@ -73,13 +73,18 @@ and glued the pieces together. It has many levels, each containing some componen
 <p style="text-align:center;"><i>Isn't she beautiful?</i></p><br>
 <br>
 
-<h2>Electrical network</h2>
-I got these nice circuit drawings from <a href="http://www.me.umn.edu/courses/me2011/arduino/technotes/dcmotors/bidirectional/bidirMotor.html">
+<h2>Electrical circuit</h2>
+I got some nice circuit drawings from <a href="http://www.me.umn.edu/courses/me2011/arduino/technotes/dcmotors/bidirectional/bidirMotor.html">
 http://www.me.umn.edu/courses/me2011/arduino/technotes/dcmotors/bidirectional/bidirMotor.html</a>
 
 <p style="text-align:center;"> <img src="/assets/img/aggressivebot1/arduino-bidir.jpg" alt="circuitbidr" width="100%"/> </p>
 
 <p style="text-align:center;"> <img src="/assets/img/aggressivebot1/bidir-dwg.jpg" alt="circuitbidrdr" width="100%"/> </p>
+
+<h2>Competition</h2>
+In the end, I teamed up with a friend of mine to participate in IEEE's competition.
+We started over and built an entirely different robot.
+We put a lot more time and money in the project than I originally anticipated, but in the end we finished second so I'm really happy with that!
 
 <h2>Programming</h2>
 
@@ -96,5 +101,7 @@ http://www.me.umn.edu/courses/me2011/arduino/technotes/dcmotors/bidirectional/bi
 
 <h2>Files</h2>
 <!-- TODO: Open in new tab -->
+The .svg files to lasercut 3mm MDF plates:
+
 <a href="/assets/img/aggressivebot1/AgressiveBot1.svg">AgressiveBot1.svg</a> <br>
 <a href="/assets/img/aggressivebot1/AgressiveBot2.svg">AgressiveBot2.svg</a>
