@@ -19,6 +19,12 @@ layout: indexpage
 				<a href="/projects">Projects</a>
 			{% endif %}
 
+			{% if currenturl[1] == "ideas" %}
+				<a class="active" href="/ideas">Ideas</a>
+			{% else %}
+				<a href="/ideas">Ideas</a>
+			{% endif %}
+
 			{% if currenturl[1] == "peru" %}
 				<a class="active" href="/peru">Peru</a>
 			{% else %}
