@@ -20,4 +20,4 @@ All code can be found on this [github repository](https://github.com/robberth/qr
 
 
 <h2>Screenshot</h2>
-<img src="/assets/img/qr-app/qr-app.png" alt="qr app screenshot" style="width: 30%;"/><br>
+<img src="/assets/img/qr-app/qr-app.png" alt="qr app screenshot" style="width: 50%;"/><br>
