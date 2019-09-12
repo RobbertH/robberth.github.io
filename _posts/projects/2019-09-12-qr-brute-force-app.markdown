@@ -17,3 +17,7 @@ It can be used if you want to test how fast your QR scanner works or if you want
 
 <h2>Code</h2>
 All code can be found on this [github repository](https://github.com/robberth/qr-brute-forcer).
+
+
+<h2>Screenshot</h2>
+<img src="/assets/img/qr-app/qr-app.png" alt="qr app screenshot" style="width: 30%;"/><br>
