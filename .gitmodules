@@ -1,0 +1,3 @@
+[submodule "public/virus-simulator"]
+	path = public/virus-simulator
+	url = https://github.com/RobbertH/virus-simulator.git
