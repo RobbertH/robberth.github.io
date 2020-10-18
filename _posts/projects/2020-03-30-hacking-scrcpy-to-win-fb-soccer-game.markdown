@@ -11,10 +11,8 @@ Every time you tap it, your score goes up by one.
 The soccer ball experiences gravity and will get an upward force when you tap it.
 I wanted to see whether OpenCV could help me winning this game.
 
-<h2>Extra constraints</h2>
-* You can only tap a certain times per second.
-Taps following each other too quickly will not be registered.
-* The upward force applied upon tapping the ball also includes a random sideways force.
+<h2>Randomness</h2>
+* The force applied upon tapping the ball also includes a random sideways force.
 This can be seen through repeatedly applying 'adb shell input tap x y' at the start of the game and observing the course of the ball.
 Since the ball always starts at the exact same position on the bottom, there is no variation in the location of the tap with respect to the ball.
 There is variation in the trajectory of the ball, which means some sort of randomness is involved.
@@ -41,7 +39,7 @@ However, there are two problems with this approach.
 <h2>Second attempt: hacking scrcpy</h2>
 Since scrcpy already has an adb connection open, grabs the images from the phone and has the ability to send input back to the phone, this was the obvious choice for a second attempt.
 Luckily for me, scrcpy is open source. It's written in C and you can build it yourself using the meson build system.
-I just needed to figure out a way to jam OpenCV in between somewhere.
+I just needed to figure out a way to put OpenCV in between somewhere.
 I first tried to find an old OpenCV version that's written in C instead of C++, so I could stick with all the meson compiler settings.
 After a while I tried to convert everything to C++, but that didn't work out either.
 At last, I found out that it's not that hard to call C++ from C, using the magic words "extern C".
@@ -54,8 +52,34 @@ No problem, we just grab the first circle coordinates, do some hocus pocus with 
 Of course, this cannot be done through adb, but has to go through the scrcpy's input manager itself.
 That's where I'm at now. I hope to find time to finish this project so I can get the high score!
 
-<h2>Screenshots</h2>
-
 <img src="/assets/img/soccer/detected_circles.png" style="width: 99%; vertical-align: middle;"/>
 <p>Detecting the same circle three times using HoughCircles.</p> <br>
 
+<h2>Update 2020-10-17 - Fixed the image conversion</h2>
+After hours of struggling, I finally managed to make the conversion from ffmpeg AVFrame to OpenCV mat, thanks to [a kind stranger's code on the internet](https://answers.opencv.org/question/36948/cvmat-to-avframe/). 
+Lots of obscure errors later, of which I understood very few due to my limited knowledge on C++, a correctly filled OpenCV mat showed up, accessible for OpenCV.
+Even the scaling feature works, so OpenCV doesn't have to process that many pixels, which probably results in faster computation. 
+However, the latency problem remains, and simple tricks like tapping on the lower end of the ball don't work, so we'll have to move on to something more sophisticated: predicting the ball trajectory. To be continued...
+
+<h2>Update 2020-10-18 - It kind of works!</h2>
+Briefly, just briefly, I considered fitting the parabola that the ball would describe in pixel space, and predicting where it'd be in a couple of frames.
+'A couple' being the number of frames that could be rendered in one 'loop': from the time the frame currently being processed was rendered until the moment the tap that is going to be sent out is registered on the phone.
+However, in engineering classes, we were taught to approximate - agressively.
+So what's the easiest meaningful prediction for the ball trajectory that you can make?
+
+First, You assume that the ball's speed is constant (which it is in the x direction, just not in y due to gravity).
+Then, you can measure this speed by comparing the position of the ball in the current frame to that in the previous.
+Assuming that the frame rate is constant, you now have a measure for the speed of the ball in pixels per frame.
+You again assume that this speed will remain constant, and multiplying this speed by delta\_t number of frames, you now have an approximation of where the ball will be in delta\_t frames.
+
+After modifying the code, this approach seemed to work! The scores were much higher, and it even got up to 44 once.
+It's still not perfect, due to two reasons, I believe.
+The first one is that there are boundaries to the game that are not taken into account by the program: the ball will bounce off the edge of the screen, resulting in a speed that's inverse in the x direction.
+The second one is that the tap that I've estimated the latency of one loop to be 5 frames, and this is assumed to be constant.
+If the frame rate drops, the prediction is probably going to be wrong.
+
+<h2>Conclusion</h2>
+The program isn't perfect, but it can play the soccer game better than I do, so I think that's quite cool.
+It also has more potential than just this game, because with a few small modifications, you are free to unleash the power of OpenCV onto any application that will run on an android device.
+I think it can be improved by reviewing some of the assumptions above, but I'm leaving it as it is.
+I learned a thing or two about C++, and I'm satisfied with the result, so I'm moving on to other projects.
