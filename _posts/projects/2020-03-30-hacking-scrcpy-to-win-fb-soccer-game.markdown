@@ -12,7 +12,7 @@ The soccer ball experiences gravity and will get an upward force when you tap it
 I wanted to see whether OpenCV could help me winning this game.
 
 <h2>Randomness</h2>
-* The force applied upon tapping the ball also includes a random sideways force.
+The force applied upon tapping the ball also includes a random sideways force.
 This can be seen through repeatedly applying 'adb shell input tap x y' at the start of the game and observing the course of the ball.
 Since the ball always starts at the exact same position on the bottom, there is no variation in the location of the tap with respect to the ball.
 There is variation in the trajectory of the ball, which means some sort of randomness is involved.
@@ -42,13 +42,16 @@ Luckily for me, scrcpy is open source. It's written in C and you can build it yo
 I just needed to figure out a way to put OpenCV in between somewhere.
 I first tried to find an old OpenCV version that's written in C instead of C++, so I could stick with all the meson compiler settings.
 After a while I tried to convert everything to C++, but that didn't work out either.
+
 At last, I found out that it's not that hard to call C++ from C, using the magic words "extern C".
 Then, after fiddling some more with meson and installing OpenCV the right way, I was able to call OpenCV from some function in scrcpy that would update every frame.
+
 The next challenge was to figure out how to convert an ffmpeg AVFrame to an OpenCV mat.
 Basically, not everyone uses the same conventions as to how a picture is defined, and I needed OpenCV to understand the one used in scrcpy.
 I never really succeeded in doing so, but at some point, I succeeded to get 3 times the same picture, horizontally adjacent to each other (something tells me these are the R, G and B channel of the picture).
 I don't care too much about these colors since the HoughCircles method uses a GrayScale image anyways, so I just ran the method on that picture and so it would extract the ball 3 times at different coordinates.
 No problem, we just grab the first circle coordinates, do some hocus pocus with the resolutions of the frame and the phone's screen, and voila, we know where to tap.
+
 Of course, this cannot be done through adb, but has to go through the scrcpy's input manager itself.
 That's where I'm at now. I hope to find time to finish this project so I can get the high score!
 
@@ -56,11 +59,11 @@ That's where I'm at now. I hope to find time to finish this project so I can get
 <p>Detecting the same circle three times using HoughCircles.</p> <br>
 
 <h2>Update 2020-10-17 - Fixed the image conversion</h2>
-After hours of struggling, I finally managed to make the conversion from ffmpeg AVFrame to OpenCV mat, thanks to [a kind stranger's code on the internet](https://answers.opencv.org/question/36948/cvmat-to-avframe/). 
+After some hours of struggling, I found [a kind stranger's code on the internet](https://answers.opencv.org/question/36948/cvmat-to-avframe/), who managed to make the conversion from ffmpeg AVFrame to OpenCV mat. 
 Lots of obscure errors later, of which I understood very few due to my limited knowledge on C++, a correctly filled OpenCV mat showed up, accessible for OpenCV.
 Even the scaling feature works, so OpenCV doesn't have to process that many pixels, which probably results in faster computation. 
 However, the latency problem remains, and simple tricks like tapping on the lower end of the ball don't work, so we'll have to move on to something more sophisticated: predicting the ball trajectory. To be continued...
-<img src="/assets/img/soccer/detected_circle_one.png" style="width: 99%; vertical-align: middle;"/>
+<img src="/assets/img/soccer/detected_circle_one.png" style="width: 33%; vertical-align: middle;"/>
 
 <h2>Update 2020-10-18 - It kind of works!</h2>
 Briefly, just briefly, I considered fitting the parabola that the ball would describe in pixel space, and predicting where it'd be in a couple of frames.
