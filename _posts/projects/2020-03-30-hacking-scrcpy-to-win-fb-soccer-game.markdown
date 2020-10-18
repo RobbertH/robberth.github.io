@@ -52,7 +52,7 @@ No problem, we just grab the first circle coordinates, do some hocus pocus with 
 Of course, this cannot be done through adb, but has to go through the scrcpy's input manager itself.
 That's where I'm at now. I hope to find time to finish this project so I can get the high score!
 
-<img src="/assets/img/soccer/detected_circles.png" style="width: 99%; vertical-align: middle;"/>
+<img src="/assets/img/soccer/detected_circles_three.png" style="width: 99%; vertical-align: middle;"/>
 <p>Detecting the same circle three times using HoughCircles.</p> <br>
 
 <h2>Update 2020-10-17 - Fixed the image conversion</h2>
@@ -60,6 +60,7 @@ After hours of struggling, I finally managed to make the conversion from ffmpeg 
 Lots of obscure errors later, of which I understood very few due to my limited knowledge on C++, a correctly filled OpenCV mat showed up, accessible for OpenCV.
 Even the scaling feature works, so OpenCV doesn't have to process that many pixels, which probably results in faster computation. 
 However, the latency problem remains, and simple tricks like tapping on the lower end of the ball don't work, so we'll have to move on to something more sophisticated: predicting the ball trajectory. To be continued...
+<img src="/assets/img/soccer/detected_circle_one.png" style="width: 99%; vertical-align: middle;"/>
 
 <h2>Update 2020-10-18 - It kind of works!</h2>
 Briefly, just briefly, I considered fitting the parabola that the ball would describe in pixel space, and predicting where it'd be in a couple of frames.
