@@ -11,6 +11,14 @@ Every time you tap it, your score goes up by one.
 The soccer ball experiences gravity and will get an upward force when you tap it.
 I wanted to see whether OpenCV could help me winning this game.
 
+<h2>Video</h2>
+<a href="www.youtube.com/watch?v=4Ikzw7TttuU">www.youtube.com/watch?v=4Ikzw7TttuU</a>
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/4Ikzw7TttuU"></iframe></div>
+
+<h2>Github</h2>
+<a href="https://github.com/RobbertH/scrcpy-opencv">https://github.com/RobbertH/scrcpy-opencv</a>
+
 <h2>Randomness</h2>
 The force applied upon tapping the ball also includes a random sideways force.
 This can be seen through repeatedly applying 'adb shell input tap x y' at the start of the game and observing the course of the ball.
