@@ -12,7 +12,7 @@ The soccer ball experiences gravity and will get an upward force when you tap it
 I wanted to see whether OpenCV could help me winning this game.
 
 <h2>Video</h2>
-<a href="www.youtube.com/watch?v=4Ikzw7TttuU">www.youtube.com/watch?v=4Ikzw7TttuU</a>
+<a href="https://www.youtube.com/watch?v=4Ikzw7TttuU">www.youtube.com/watch?v=4Ikzw7TttuU</a>
 
 <div class="video-container"><iframe src="https://www.youtube.com/embed/4Ikzw7TttuU"></iframe></div>
 
