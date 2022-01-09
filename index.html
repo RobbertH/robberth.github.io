@@ -31,11 +31,18 @@ layout: indexpage
 				<a href="/peru">Peru</a>
 			{% endif %}
 
+			{% if currenturl[1] == "donate" %}
+				<a class="active" href="/donate">Donate</a>
+			{% else %}
+				<a href="/donate">Donate</a>
+			{% endif %}
+
 			{% if currenturl[1] == "about" %}
 				<a class="active" href="/about">About</a>
 			{% else %}
 				<a href="/about">About</a>
 			{% endif %}
+
 		</nav>
 
 		<h1><span>Robbert Hofman</span></h1>
