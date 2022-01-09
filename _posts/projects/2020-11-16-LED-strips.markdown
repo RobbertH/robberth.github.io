@@ -23,7 +23,7 @@ And as always, I relied on fantastic open source work of others: a library calle
 This is my first PCB design in a hobby project, so this was kind of an adventure.
 One of my electrical engineering buddies recommended Autodesk's Eagle to design it, so that's what I used.
 
-<img src="/assets/img/led/Eagle_ESP32.png" alt="Eagle design" style="width: 80%;"/><br>
+<img src="/assets/img/led/Eagle_ESP32.png" alt="Eagle design" style="width: 100%;"/><br>
 
 I looked for an ESP32 design only to find out later that the pinout and footprint were different from the ESP32 I have lying around.
 So a few hours and some youtube videos later, I had my own ESP32 eagle component, with corresponding pinout and footprint.
@@ -33,7 +33,8 @@ Then it was just a matter of soldering the right connectors on, plugging the ESP
 
 <h2>3D printed case</h2>
 Just for fun, and to hide the red ESP32 light (if the cover's on).
-<img src="/assets/img/led/ledcontroller.jpeg" alt="led controller" style="width: 80%;"/><br>
+
+<img src="/assets/img/led/ledcontroller.jpeg" alt="led controller" style="width: 100%;"/><br>
 
 <h2>Conclusion</h2>
 Digital LED strips are cool because you can directly control them using a microcontroller, without a separate driver.
