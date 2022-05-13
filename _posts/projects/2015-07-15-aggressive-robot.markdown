@@ -3,6 +3,7 @@ layout: post
 title:  "Aggressive robot"
 date:   2015-07-15 22:03:25
 categories: projects
+comments: true
 ---
 
 <h2>Background & Concept</h2>

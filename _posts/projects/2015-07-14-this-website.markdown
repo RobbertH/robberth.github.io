@@ -3,6 +3,7 @@ layout: post
 title:  "This Website"
 date:   2015-07-13 21:00:25
 categories: projects
+comments: true
 ---
 
 I have been interested in web development since I was a child.

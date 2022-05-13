@@ -2,6 +2,7 @@
 layout: post
 title: "Hand sanitizers in elevators"
 categories: ideas
+comments: true
 ---
 
 <h2>{{post.title}}</h2>

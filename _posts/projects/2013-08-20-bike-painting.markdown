@@ -3,6 +3,7 @@ layout: post
 title: "Bike Painting"
 date: 2013-08-20
 categories: projects
+comments: true
 ---
 <h2>Background</h2>
 It was on an uneventful day during summer vacations that I decided to do my first DIY project, together with a good friend of mine.

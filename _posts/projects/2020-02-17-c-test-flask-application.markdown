@@ -3,6 +3,7 @@ layout: post
 title:  "C-test Flask application"
 date:   2020-02-17 
 categories: projects
+comments: true
 ---
 
 <h2>Background & Concept</h2>

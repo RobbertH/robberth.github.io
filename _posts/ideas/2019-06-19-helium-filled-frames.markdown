@@ -2,6 +2,7 @@
 layout: post
 title: "Helium filled frames"
 categories: ideas
+comments: true
 ---
 
 <h2>{{post.title}}</h2>

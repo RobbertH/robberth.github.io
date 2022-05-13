@@ -3,6 +3,7 @@ layout: post
 title:  "Secure notes app"
 date:   2018-01-23 
 categories: projects
+comments: true
 ---
 
 <h2>Background & Concept</h2>

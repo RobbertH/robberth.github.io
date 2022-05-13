@@ -2,6 +2,7 @@
 layout: post
 title: "MDF feed lasercutter"
 categories: ideas
+comments: true
 ---
 
 <h2>{{post.title}}</h2>

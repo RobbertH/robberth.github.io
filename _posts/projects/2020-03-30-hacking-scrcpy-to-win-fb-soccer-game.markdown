@@ -3,6 +3,7 @@ layout: post
 title:  "Hacking scrcpy to win fb soccer game"
 date:   2020-03-30 
 categories: projects
+comments: true
 ---
 
 <h2>Background & Concept</h2>

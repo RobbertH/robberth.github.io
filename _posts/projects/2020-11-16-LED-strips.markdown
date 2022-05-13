@@ -3,6 +3,7 @@ layout: post
 title:  "LED strips"
 date:   2020-11-16 
 categories: projects
+comments: true
 ---
 
 <h2>Background & Concept</h2>

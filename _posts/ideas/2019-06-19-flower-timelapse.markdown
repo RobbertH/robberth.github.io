@@ -2,6 +2,7 @@
 layout: post
 title: "Flower timelapse"
 categories: ideas
+comments: true
 ---
 
 <h2>{{post.title}}</h2>

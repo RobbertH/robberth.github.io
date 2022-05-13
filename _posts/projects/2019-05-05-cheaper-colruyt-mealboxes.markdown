@@ -3,6 +3,7 @@ layout: post
 title:  "Cheaper Colruyt mealboxes"
 date:   2019-05-05 
 categories: projects
+comments: true
 ---
 
 <h2>Background & Concept</h2>

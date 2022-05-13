@@ -2,6 +2,7 @@
 layout: post
 title: "Speech AI mood detection"
 categories: ideas
+comments: true
 ---
 
 <h2>{{post.title}}</h2>

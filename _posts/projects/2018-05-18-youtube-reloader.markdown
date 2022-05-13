@@ -3,6 +3,7 @@ layout: post
 title:  "Greasemonkey Youtube reloader"
 date:   2018-05-18 
 categories: projects
+comments: true
 ---
 
 <h2>Background & Concept</h2>

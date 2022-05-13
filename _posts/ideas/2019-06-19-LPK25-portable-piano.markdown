@@ -2,6 +2,7 @@
 layout: post
 title: "LPK25 portable piano"
 categories: ideas
+comments: true
 ---
 
 <h2>{{post.title}}</h2>

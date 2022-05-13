@@ -2,6 +2,7 @@
 layout: post
 title: "Digital signatures against deepfakes"
 categories: ideas
+comments: true
 ---
 
 <h2>{{post.title}}</h2>

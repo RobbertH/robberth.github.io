@@ -3,6 +3,7 @@ layout: post
 title:  "Visible light communication"
 date:   2016-03-29 15:42:25
 categories: projects
+comments: true
 ---
 
 <h2>Background & Concept</h2>

@@ -2,6 +2,7 @@
 layout: post
 title: "Proof of work DDOS mitigation"
 categories: ideas
+comments: true
 ---
 
 <h2>{{post.title}}</h2>

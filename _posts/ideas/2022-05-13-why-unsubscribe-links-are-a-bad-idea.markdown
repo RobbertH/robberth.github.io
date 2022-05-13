@@ -2,7 +2,7 @@
 layout: post
 title: "Why unsubscribe links are a bad idea"
 categories: ideas
-comments: false
+comments: true
 ---
 
 <h2>{{post.title}}</h2>

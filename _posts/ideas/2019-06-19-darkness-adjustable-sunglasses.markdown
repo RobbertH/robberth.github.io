@@ -2,6 +2,7 @@
 layout: post
 title: "Darkness adjustable sunglasses"
 categories: ideas
+comments: true
 ---
 
 <h2>{{post.title}}</h2>
