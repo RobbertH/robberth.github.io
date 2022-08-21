@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Telegram finviz bot"
-date:   2022-08-22 
+date:   2022-08-20 
 categories: projects
 comments: true
 ---
