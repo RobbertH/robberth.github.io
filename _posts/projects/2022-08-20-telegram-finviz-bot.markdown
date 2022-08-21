@@ -21,11 +21,12 @@ Nope, the entire image is already in the POST request, encoded in base64.
 So you send them a request with the image to be published? (also, any image?)
 But how do you get the base64 image?
 Must be some javascript magic. Look at the source. Unreadable minified JS. Skip.
-Let's just search for another treemap view, stumbled upon [tradingview's heatmap](https://tradingview.com/heatmap), but no luck finding a nice URL there either.
+When searching for another treemap view, stumbled upon [tradingview's heatmap](https://tradingview.com/heatmap), but no luck finding a nice URL there either.
+Let's look at another option.
 
 <h2>Selenium</h2>
 There's probably many websites where you don't want to go to the trouble of even opening the dev console, just to scrape an asset.
-Luckily, [https://selenium.dev](selenium) exists.
+Luckily, [selenium](https://selenium.dev) exists.
 It allows you to control a browser from a programming language, in my case Python.
 At first I wrote a script that took a screenshot of the finviz map using my browser, but I ran into issues when I wanted to go headless.
 Cloudflare's anti-bot system was blocking access for headless selenium.
@@ -37,6 +38,10 @@ All that remained was to figure out how to run this thing every day at 15:45, an
 Seemed like a job for cron, but I wasn't sure whether to run this inside a container or on the host, whether to make another microservice that hosts the screenshot, etc.
 Then I stumbled upon a nice python cron package, and used that to call the screenshot code.
 Finally, stackoverflow told me about `https://api.telegram.org/bot<Token>/sendPhoto` and how to use it, and there was my bot.
+
+<h2>Screenshot</h2>
+<img src="/assets/img/finviz/telegram-screenshot.jpeg" alt="telegram screenshot" style="width: 50%;"/><br>
+I actually run it at the 46th minute, so I'm sure finviz has produced a map already.
 
 <h2>Conclusion</h2>
 Spent way too long automating a process that only takes 5 seconds every day.
