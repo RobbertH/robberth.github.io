@@ -77,7 +77,7 @@ from(bucket: "portfolio")
   |> group()
 ```
 Took me a while to figure out you have to group by time before summing value across stock symbols.
-Finally, playing around with the treemap settings: size is based on value in portfolio, color is based on daily change.
+Finally, playing around with the treemap settings: size is based on value in portfolio, color is based on change w.r.t. previous close.
 
 <h2>Screenshot</h2>
 <img src="/assets/img/portfolio/grafana.png" alt="grafana" style="width: 100%;"/><br>
