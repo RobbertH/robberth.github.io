@@ -54,9 +54,9 @@ Slowly getting used to Autodesk's Eagle, I thought I'd go for a round PCB this t
 The ESP32 C3 is super cool!
 
 <h2>Some resources crossed along the way</h2>
-https://github.com/esphome/issues/issues/2946
-https://github.com/Aircoookie/WLED/issues/2518
-https://github.com/Aircoookie/WLED/issues/1940
-https://esphome.io/components/light/index.html
-https://esphome.io/components/light/index.html#addressable-fireworks-effect
-https://github.com/esphome/issues/issues/2931
+* [https://github.com/esphome/issues/issues/2946](https://github.com/esphome/issues/issues/2946)
+* [https://github.com/Aircoookie/WLED/issues/2518](https://github.com/Aircoookie/WLED/issues/2518)
+* [https://github.com/Aircoookie/WLED/issues/1940](https://github.com/Aircoookie/WLED/issues/1940)
+* [https://esphome.io/components/light/index.html](https://esphome.io/components/light/index.html)
+* [https://esphome.io/components/light/index.html#addressable-fireworks-effect](https://esphome.io/components/light/index.html#addressable-fireworks-effect)
+* [https://github.com/esphome/issues/issues/2931](https://github.com/esphome/issues/issues/2931)
