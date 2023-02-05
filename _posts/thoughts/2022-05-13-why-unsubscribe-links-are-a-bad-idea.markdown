@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why unsubscribe links are a bad idea"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

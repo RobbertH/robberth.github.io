@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Speech AI mood detection"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

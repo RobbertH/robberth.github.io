@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Solar panel experiments"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

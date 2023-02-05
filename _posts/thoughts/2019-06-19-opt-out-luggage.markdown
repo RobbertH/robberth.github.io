@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Opt out luggage"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

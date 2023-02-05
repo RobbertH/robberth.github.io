@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LPK25 portable piano"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

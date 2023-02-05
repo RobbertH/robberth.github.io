@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hand sanitizers in elevators"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Flower timelapse"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

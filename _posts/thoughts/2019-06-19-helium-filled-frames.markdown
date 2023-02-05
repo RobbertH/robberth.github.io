@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Helium filled frames"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

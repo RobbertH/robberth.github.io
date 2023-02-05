@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Proof of work DDOS mitigation"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

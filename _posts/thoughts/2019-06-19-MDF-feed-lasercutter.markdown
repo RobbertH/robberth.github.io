@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MDF feed lasercutter"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Multi-user biometric authentication"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

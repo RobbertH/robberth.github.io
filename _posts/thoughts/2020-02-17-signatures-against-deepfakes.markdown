@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Digital signatures against deepfakes"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Darkness adjustable sunglasses"
-categories: ideas
+categories: thoughts
 comments: true
 ---
 
