@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 340px;
+      background: #0f0f1a;
+      color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 13px;
+    }
+
+    /* ── Header ────────────────────────────────────────────────────────── */
+
+    .header {
+      background: #16213e;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .header img { width: 28px; height: 28px; }
+
+    .header h1 {
+      font-size: 16px;
+      color: #ff9f43;
+      font-weight: 700;
+    }
+
+    .header .version {
+      font-size: 10px;
+      color: #636e72;
+      margin-left: auto;
+    }
+
+    /* ── Stats ──────────────────────────────────────────────────────────── */
+
+    .stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1px;
+      background: #2d2d44;
+      margin-bottom: 1px;
+    }
+
+    .stat {
+      background: #1a1a2e;
+      padding: 12px;
+      text-align: center;
+    }
+
+    .stat .num {
+      font-size: 20px;
+      font-weight: 700;
+      color: #dfe6e9;
+    }
+
+    .stat .num.accent { color: #ff9f43; }
+
+    .stat .lbl {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #636e72;
+      margin-top: 2px;
+    }
+
+    /* ── Recent requests ───────────────────────────────────────────────── */
+
+    .section {
+      padding: 12px 16px;
+    }
+
+    .section-title {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: #636e72;
+      margin-bottom: 8px;
+    }
+
+    .req-list {
+      max-height: 180px;
+      overflow-y: auto;
+    }
+
+    .req {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 0;
+      border-bottom: 1px solid #1a1a2e;
+    }
+
+    .req-method {
+      font-size: 9px;
+      font-weight: 700;
+      width: 30px;
+      text-align: center;
+    }
+
+    .req-method.GET  { color: #54a0ff; }
+    .req-method.POST { color: #ff6b6b; }
+
+    .req-svc {
+      background: #2d3436;
+      color: #81ecec;
+      border-radius: 3px;
+      padding: 1px 5px;
+      font-size: 10px;
+    }
+
+    .req-action {
+      flex: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 11px;
+      color: #b2bec3;
+    }
+
+    .req-status { font-size: 10px; font-weight: 600; }
+    .req-status.ok  { color: #00b894; }
+    .req-status.err { color: #ff6b6b; }
+
+    .empty-msg {
+      color: #636e72;
+      font-style: italic;
+      font-size: 12px;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* ── Actions ────────────────────────────────────────────────────────── */
+
+    .actions {
+      padding: 12px 16px;
+      display: flex;
+      gap: 8px;
+    }
+
+    .actions button {
+      flex: 1;
+      padding: 8px 0;
+      border: 1px solid #2d2d44;
+      border-radius: 4px;
+      background: #1a1a2e;
+      color: #dfe6e9;
+      font-size: 12px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .actions button:hover { background: #16213e; }
+    .actions button.primary { background: #ff9f43; color: #0f0f1a; border-color: #ff9f43; font-weight: 600; }
+    .actions button.primary:hover { background: #e08e3a; }
+
+    /* ── Settings ───────────────────────────────────────────────────────── */
+
+    .toggle-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 0;
+    }
+
+    .toggle-row label { font-size: 12px; color: #b2bec3; }
+
+    .toggle {
+      width: 36px;
+      height: 20px;
+      background: #2d3436;
+      border-radius: 10px;
+      position: relative;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .toggle.on { background: #ff9f43; }
+
+    .toggle::after {
+      content: "";
+      width: 16px;
+      height: 16px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      transition: left 0.2s;
+    }
+
+    .toggle.on::after { left: 18px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="icons/icon48.png" alt="">
+    <h1>Better AWS</h1>
+    <span class="version">v0.1.0</span>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="num accent" id="stat-services">0</div>
+      <div class="lbl">Services</div>
+    </div>
+    <div class="stat">
+      <div class="num" id="stat-requests">0</div>
+      <div class="lbl">Requests</div>
+    </div>
+    <div class="stat">
+      <div class="num" id="stat-errors">0</div>
+      <div class="lbl">Errors</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Recent requests</div>
+    <div class="req-list" id="req-list">
+      <div class="empty-msg">No requests captured yet. Open the AWS Console.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Settings</div>
+    <div class="toggle-row">
+      <label>UI enhancements</label>
+      <div class="toggle on" id="toggle-ui" data-key="uiEnhancements"></div>
+    </div>
+    <div class="toggle-row">
+      <label>Request panel</label>
+      <div class="toggle on" id="toggle-panel" data-key="requestPanel"></div>
+    </div>
+    <div class="toggle-row">
+      <label>Overview graph</label>
+      <div class="toggle on" id="toggle-graph" data-key="overviewGraph"></div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button id="btn-overview" class="primary">Account Overview</button>
+    <button id="btn-clear">Clear Data</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
