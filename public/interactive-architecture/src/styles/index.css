@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* ── Theme variables ── */
+.app[data-theme="dark"] {
+  --bg: #0a0a14;
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --surface: rgba(15, 15, 25, 0.9);
+  --surface-border: rgba(255, 255, 255, 0.06);
+  --node-bg: rgba(20, 20, 35, 0.95);
+  --node-text: #e2e8f0;
+  --node-shadow: rgba(0, 0, 0, 0.5);
+  --band-opacity: 6%;
+  --band-border-opacity: 12%;
+  --edge-color: rgba(148, 163, 184, 0.2);
+  --arrow-color: rgba(148, 163, 184, 0.3);
+  --controls-bg: rgba(20, 20, 35, 0.9);
+  --controls-border: rgba(255, 255, 255, 0.08);
+  --controls-btn: #94a3b8;
+  --panel-bg: #0f0f1e;
+  --snippet-bg: #0a0a16;
+}
+
+.app[data-theme="light"] {
+  --bg: #f1f5f9;
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --surface: rgba(255, 255, 255, 0.95);
+  --surface-border: rgba(0, 0, 0, 0.08);
+  --node-bg: rgba(255, 255, 255, 0.95);
+  --node-text: #1e293b;
+  --node-shadow: rgba(0, 0, 0, 0.1);
+  --band-opacity: 8%;
+  --band-border-opacity: 15%;
+  --edge-color: rgba(100, 116, 139, 0.3);
+  --arrow-color: rgba(100, 116, 139, 0.4);
+  --controls-bg: rgba(255, 255, 255, 0.95);
+  --controls-border: rgba(0, 0, 0, 0.1);
+  --controls-btn: #475569;
+  --panel-bg: #ffffff;
+  --snippet-bg: #f8fafc;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg, #0a0a14);
+  color: var(--text, #e2e8f0);
+  -webkit-font-smoothing: antialiased;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.flow-container {
+  flex: 1;
+  position: relative;
+}
+
+/* Edge styling */
+.react-flow__edge path {
+  stroke: var(--edge-color);
+  stroke-width: 1.5;
+}
+
+.react-flow__edge.animated path {
+  stroke-dasharray: 5 5;
+  animation: dash-flow 0.8s linear infinite;
+}
+
+@keyframes dash-flow {
+  to {
+    stroke-dashoffset: -10;
+  }
+}
+
+/* Arrow markers */
+.react-flow__arrowhead polyline {
+  fill: var(--arrow-color);
+  stroke: var(--arrow-color);
+}
+
+/* Controls */
+.react-flow__controls {
+  background: var(--controls-bg);
+  border: 1px solid var(--controls-border);
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px var(--node-shadow);
+}
+
+.react-flow__controls button {
+  background: transparent;
+  border-bottom: 1px solid var(--surface-border);
+  color: var(--controls-btn);
+  fill: var(--controls-btn);
+}
+
+.react-flow__controls button:hover {
+  background: rgba(128, 128, 128, 0.1);
+}

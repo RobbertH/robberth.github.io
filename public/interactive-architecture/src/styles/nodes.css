@@ -1,0 +1,92 @@
+/* === Architecture Node === */
+.architecture-node {
+  background: var(--node-bg);
+  border: 1.5px solid var(--layer-color, #6366f1);
+  border-radius: 10px;
+  width: 180px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  backdrop-filter: blur(12px);
+  box-shadow:
+    0 2px 8px var(--node-shadow),
+    0 0 16px color-mix(in srgb, var(--layer-color) 15%, transparent);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.architecture-node:hover {
+  transform: scale(1.06);
+  box-shadow:
+    0 4px 16px var(--node-shadow),
+    0 0 28px color-mix(in srgb, var(--layer-color) 30%, transparent);
+  z-index: 10;
+}
+
+.node-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+}
+
+img.node-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.node-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--node-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 0.01em;
+}
+
+.node-handle {
+  width: 6px !important;
+  height: 6px !important;
+  background: var(--layer-color, #6366f1) !important;
+  border: none !important;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.architecture-node:hover .node-handle {
+  opacity: 0.9;
+}
+
+/* === Layer Band === */
+.layer-band {
+  position: relative;
+  pointer-events: none;
+}
+
+.layer-band-bg {
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--band-color) var(--band-opacity, 6%), transparent);
+  border: 1px solid color-mix(in srgb, var(--band-color) var(--band-border-opacity, 12%), transparent);
+  border-left: 3px solid color-mix(in srgb, var(--band-color) 50%, transparent);
+}
+
+.layer-band-label {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  writing-mode: horizontal-tb;
+  white-space: nowrap;
+  opacity: 0.8;
+}

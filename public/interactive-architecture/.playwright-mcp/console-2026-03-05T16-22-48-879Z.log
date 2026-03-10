@@ -1,0 +1,15 @@
+[     659ms] [ERROR] [TangerineBox] Telemetry configuration is missing. Error: Error: Session data meta tag not found @ https://a.b.cdn.console.awsstatic.com/a/v1/YRING43GISMZ55PQVLRQ7GEJWK2K42P5ER7ZESQSTPFHH6OQM4ZA/eade49c098ff40c0abc641e3c8eeb22b82cf6d6688e04b789af571b487c8aeae.js:1
+[     660ms] [ERROR] [TangerineBox] Telemetry configuration is missing. Error: Error: Session data meta tag not found @ https://a.b.cdn.console.awsstatic.com/a/v1/YRING43GISMZ55PQVLRQ7GEJWK2K42P5ER7ZESQSTPFHH6OQM4ZA/eade49c098ff40c0abc641e3c8eeb22b82cf6d6688e04b789af571b487c8aeae.js:1
+[     664ms] [WARNING] Unable to parse the data using legacy methods @ https://a.b.cdn.console.awsstatic.com/a/v1/YRING43GISMZ55PQVLRQ7GEJWK2K42P5ER7ZESQSTPFHH6OQM4ZA/eade49c098ff40c0abc641e3c8eeb22b82cf6d6688e04b789af571b487c8aeae.js:1
+[     664ms] [ERROR] Couldn't determine console domain and dual-stack values. @ https://a.b.cdn.console.awsstatic.com/a/v1/YRING43GISMZ55PQVLRQ7GEJWK2K42P5ER7ZESQSTPFHH6OQM4ZA/eade49c098ff40c0abc641e3c8eeb22b82cf6d6688e04b789af571b487c8aeae.js:1
+[    1829ms] [WARNING] Unable to parse the data using legacy methods @ https://docs.aws.amazon.com/assets/r/8194.4a9be60fe3691e1b39b3.js:1
+[    1829ms] [ERROR] Couldn't determine console domain and dual-stack values. @ https://docs.aws.amazon.com/assets/r/8194.4a9be60fe3691e1b39b3.js:1
+[    2672ms] [ERROR] {error: Object} @ https://a.b.cdn.console.awsstatic.com/a/v1/W32MIY667ENYHW2V4FVU6TWRQ53CWAMDCNHFE25C4ODMAJVKHD5A/module2.js:10
+[    2673ms] [ERROR] {error: Object} @ https://a.b.cdn.console.awsstatic.com/a/v1/W32MIY667ENYHW2V4FVU6TWRQ53CWAMDCNHFE25C4ODMAJVKHD5A/module2.js:10
+[    2769ms] [WARNING] Unable to parse the data using legacy methods @ https://a.b.cdn.console.awsstatic.com/a/v1/W32MIY667ENYHW2V4FVU6TWRQ53CWAMDCNHFE25C4ODMAJVKHD5A/module2.js:80
+[    2769ms] [ERROR] Couldn't determine console domain and dual-stack values. @ https://a.b.cdn.console.awsstatic.com/a/v1/W32MIY667ENYHW2V4FVU6TWRQ53CWAMDCNHFE25C4ODMAJVKHD5A/module2.js:80
+[    2947ms] [ERROR] Framing 'https://conversational-experience-worker.widget.console.aws.amazon.com/' violates the following Content Security Policy directive: "frame-ancestors 'none'". The request has been blocked.
+ @ :0
+[    2955ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ chrome-error://chromewebdata/:0
+[    2972ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://conversational-experience-worker.widget.console.aws.amazon.com') does not match the recipient window's origin ('null'). @ https://a.b.cdn.console.awsstatic.com/a/v1/W32MIY667ENYHW2V4FVU6TWRQ53CWAMDCNHFE25C4ODMAJVKHD5A/module2.js:170
+[    4406ms] [ERROR] It does not seem your site has onboarded to Shortbread. Onboarding to Shortbread is required for using Visitor ID Service. @ https://d2c.aws.amazon.com/client/lib/v1/module/index-4cfbf89d.js:1

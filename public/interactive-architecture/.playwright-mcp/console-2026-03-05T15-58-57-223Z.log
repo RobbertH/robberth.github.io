@@ -1,0 +1,63 @@
+[     127ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5173/favicon.ico:0
+[   69229ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-REFQX4J5.js?v=63b2bb76:136
+[   69229ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-REFQX4J5.js?v=63b2bb76:136
+[   69230ms] TypeError: Cannot read properties of null (reading 'useState')
+    at useState (http://localhost:5173/node_modules/.vite/deps/chunk-REFQX4J5.js?v=63b2bb76:1067:29)
+    at Flow (http://localhost:5173/src/App.jsx:60:39)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:11594:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14972:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15960:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   69231ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-REFQX4J5.js?v=63b2bb76:136
+[   69232ms] [ERROR] Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:5173/node_modules/.vite/deps/chunk-REFQX4J5.js?v=63b2bb76:136
+[   69232ms] TypeError: Cannot read properties of null (reading 'useState')
+    at useState (http://localhost:5173/node_modules/.vite/deps/chunk-REFQX4J5.js?v=63b2bb76:1067:29)
+    at Flow (http://localhost:5173/src/App.jsx:60:39)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:11594:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14972:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15960:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   69233ms] [ERROR] The above error occurred in the <Flow> component:
+
+    at Flow (http://localhost:5173/src/App.jsx:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=e49ba999:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=e49ba999:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   69234ms] TypeError: Cannot read properties of null (reading 'useState')
+    at useState (http://localhost:5173/node_modules/.vite/deps/chunk-REFQX4J5.js?v=63b2bb76:1067:29)
+    at Flow (http://localhost:5173/src/App.jsx:60:39)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:11594:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14972:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15960:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19804:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19188:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19167:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:18784:28)

@@ -1,0 +1,73 @@
+[     196ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/amazonaws/FF9900:0
+[     196ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/amazons3/569A31:0
+[     196ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/apacheiceberg/4FC3F7:0
+[     197ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/dbt/FF694B:0
+[     227ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/amazonaws/FF9900:0
+[   64086ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/microsoftazure/0078D4:0
+[   68537ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/openpolicyagent/7D9199:0
+[  369418ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/amazonaws/FF9900:0
+[  369419ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/amazons3/569A31:0
+[  369420ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/apacheiceberg/4FC3F7:0
+[  369422ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/dbt/FF694B:0
+[  369526ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/amazonaws/FF9900:0
+[  464407ms] TypeError: Cannot read properties of null (reading 'src')
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx?t=1772726504443:68:77)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:11594:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14628:28)
+    at updateSimpleMemoComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14509:18)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:16026:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[  464415ms] TypeError: Cannot read properties of null (reading 'src')
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx?t=1772726504443:68:77)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:11594:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14628:28)
+    at updateSimpleMemoComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14509:18)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:16026:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[  464416ms] [ERROR] The above error occurred in the <ArchitectureNode> component:
+
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx?t=1772726504443:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726995988:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[  464418ms] TypeError: Cannot read properties of null (reading 'src')
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx?t=1772726504443:68:77)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:11594:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14628:28)
+    at updateSimpleMemoComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14509:18)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:16026:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19804:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19188:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19167:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:18784:28)
+[  617808ms] [WARNING] [React Flow]: It looks like you've created a new nodeTypes or edgeTypes object. If this wasn't on purpose please define the nodeTypes/edgeTypes outside of the component or memoize them. Help: https://reactflow.dev/error#002 @ http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:3913

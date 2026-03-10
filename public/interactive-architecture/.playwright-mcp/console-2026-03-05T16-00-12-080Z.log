@@ -1,0 +1,587 @@
+[   76450ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76454ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76455ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76456ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76456ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76457ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76457ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76458ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76458ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76459ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76460ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76463ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76464ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76464ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76464ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76465ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76465ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76466ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76468ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76468ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76469ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76469ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3678:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3703:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:3737:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19816:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+[   76470ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at div
+    at div
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726488445:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   76470ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at div
+    at div
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726488445:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   76471ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at div
+    at div
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726488445:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   76471ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at div
+    at div
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726488445:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   76471ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at div
+    at div
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726488445:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   76471ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at div
+    at div
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726488445:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   76471ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at div
+    at div
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726488445:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   76471ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at div
+    at div
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726488445:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   76472ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at div
+    at div
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726488445:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   76472ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at div
+    at div
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726488445:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   76472ms] [ERROR] The above error occurred in the <span> component:
+
+    at span
+    at div
+    at div
+    at ArchitectureNode (http://localhost:5173/src/components/ArchitectureNode.jsx:19:29)
+    at div
+    at NodeWrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7948:28)
+    at div
+    at NodeRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8083:93)
+    at div
+    at Viewport (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8567:31)
+    at div
+    at Pane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7375:17)
+    at div
+    at ZoomPane (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7251:21)
+    at FlowRendererComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:7861:44)
+    at GraphViewComponent (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:8701:31)
+    at Wrapper (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9090:30)
+    at div
+    at ReactFlow (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9104:22)
+    at div
+    at div
+    at Flow (http://localhost:5173/src/App.jsx?t=1772726488445:60:39)
+    at BatchProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:6956:36)
+    at ReactFlowProvider (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=ee7645c6:9072:44)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14077
+[   76476ms] Error: Objects are not valid as a React child (found: object with keys {src, alt}). If you meant to render a collection of children, use an array instead.
+    at throwOnInvalidObjectType (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:9979:17)
+    at reconcileChildFibers2 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:10609:15)
+    at reconcileChildren (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14338:37)
+    at updateHostComponent (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:14853:11)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:15981:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19804:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19249:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19188:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:19167:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-QXLG2TGQ.js?v=ee7645c6:18784:28)
+[   92521ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/amazonaws/FF9900:0
+[   92525ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/dbt/FF694B:0
+[   92553ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/apacheiceberg/4FC3F7:0
+[   92554ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://cdn.simpleicons.org/amazons3/569A31:0

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect x="8" y="14" width="48" height="36" rx="6" fill="none" stroke="#94a3b8" stroke-width="3"/>
+  <text x="32" y="37" text-anchor="middle" font-family="monospace" font-size="14" font-weight="bold" fill="#94a3b8">API</text>
+  <circle cx="16" cy="22" r="2" fill="#10b981"/>
+  <circle cx="22" cy="22" r="2" fill="#f59e0b"/>
+  <circle cx="28" cy="22" r="2" fill="#ef4444"/>
+</svg>
