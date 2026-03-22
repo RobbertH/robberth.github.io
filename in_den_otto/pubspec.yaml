@@ -1,0 +1,56 @@
+name: in_den_otto
+description: Know when you're driving. Connect with other drivers.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.0
+  firebase_messaging: ^15.1.6
+
+  # Car detection
+  flutter_blue_plus: ^1.35.2
+  sensors_plus: ^6.1.1
+  geolocator: ^13.0.2
+
+  # Background execution
+  workmanager: ^0.5.2
+  flutter_background_service: ^5.0.12
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Phone calls
+  url_launcher: ^6.3.1
+
+  # Home screen widget
+  home_widget: ^0.7.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Shared preferences
+  shared_preferences: ^2.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
